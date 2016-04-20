@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/da55746fab2e41573341288df95429923cec9471/MIMDocs/index.md) | HandedOffSuccess | [Details](#5f67859dbc77fd3782dcec680beea36e1f66872f81)
+ [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/0459e0053de4309e53598aab5d40e9ad246f6a06/MIMDocs/index.md) | HandedOffSuccess | [Details](#31b7456e6ed45620f5fa209bd377f586217bd98b81)
 
 ## Item Details
-##### <a name='5f67859dbc77fd3782dcec680beea36e1f66872f81'></a> Source: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/da55746fab2e41573341288df95429923cec9471/MIMDocs/index.md)
+##### <a name='31b7456e6ed45620f5fa209bd377f586217bd98b81'></a> Source: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/0459e0053de4309e53598aab5d40e9ad246f6a06/MIMDocs/index.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/e00516cad77f708f4e4d86e8e514084806664da1/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf)
-* Handoff Datetime: 2016-04-20 17:49:17
+* Handoff File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/cabc84b1f3ca45e0ea306a12965038c09c7e74f4/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf)
+* Handoff Datetime: 2016-04-20 19:17:32
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
