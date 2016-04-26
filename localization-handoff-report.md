@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/879031b9ec31973d7fc4bcb4b93cc58b94d781dc/MIMDocs/index.md) | HandedOffSuccess | [Details](#0587181471cbd28168d3f3de2147c237bd012a9c81)
 
 ## Item Details
+##### <a name='0587181471cbd28168d3f3de2147c237bd012a9c81'></a> Source: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/879031b9ec31973d7fc4bcb4b93cc58b94d781dc/MIMDocs/index.md)
+* Status: HandedOffSuccess
+* Target File: 
+* Handoff File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/73bc7e5c88e89fb7830c1a29415d57c37dcf3f00/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf)
+* Handoff Datetime: 2016-04-26 21:16:05
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
