@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 283
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 168
+[ Handoff Success Files ](#handoff-success-list)| 167
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 7
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 2
-[ Ignored Files ](#ignored-list)| 106
+[ Ignored Files ](#ignored-list)| 107
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -82,7 +82,6 @@
  [MIMDocs\DeployUse\preparing-domain.md](https://github.com/Microsoft/MIMDocs-pr/blob/af9f7f75f19bb29f2e29577c787252f6b7fabb7d/MIMDocs/DeployUse/preparing-domain.md) | HandedOffSuccess | [Details](#b22ccf69e6a1a6c8e13baa35c57bde0c6c07183a70)
  [MIMDocs\DeployUse\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/ae96c9d8ff6d9c4694f1526f18a586b315c1e69f/MIMDocs/DeployUse/TOC.md) | HandedOffSuccess | [Details](#ef20cb9c84401229f1e11a3c9f3e28dfdb6148ee71)
  [MIMDocs\GetStarted\media\150x150.png](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/GetStarted/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f7178)
- [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/7639dc76a809b5f8552bca52018b02a0b0df8c7f/MIMDocs/index.md) | HandedOffSuccess | [Details](#62f14b7d815943bda0ecf7c608bbf05a0c1c852c81)
  [MIMDocs\index-oldformat.html](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/index-oldformat.html) | HandedOffSuccess | [Details](#512010f0017a5c1736a1aa71045fc97e4fa1780880)
  [MIMDocs\media\150x150.png](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/media/150x150.png) | HandedOffSuccess | [Details](#84421bf7f4ba657e685239fb27f4798a46485f7183)
  [MIMDocs\media\bastion1.png](https://github.com/Microsoft/MIMDocs-pr/blob/d3196e23a3bcacc8e563d6a16ec00be7be68fb6d/MIMDocs/media/bastion1.png) | HandedOffSuccess | [Details](#f93247ee57858fc3d5ac1a2502d4d796658538db87)
@@ -223,6 +222,7 @@
  [MIMDocs\docfx.json](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/docfx.json) | Ignored | [Details](#450845cfbd21e012efca3a782e1915d6e85e415875)
  [MIMDocs\GetStarted\docfx.json](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/GetStarted/docfx.json) | Ignored | [Details](#aac1880b8373d48d2a2d0b813c609088948584b676)
  [MIMDocs\GetStarted\md.style](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/GetStarted/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda77)
+ [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/index.md) | Ignored | [Details](#cd44e8ee2ee8dc74c05194130a414b1d9fdc711a81)
  [MIMDocs\md.style](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/md.style) | Ignored | [Details](#755db60abb7859af5065e2c5ddfbfc6cfb7aeeda82)
  [MIMDocs\media\AzureWebsiteIcons-enroll.png](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/media/AzureWebsiteIcons-enroll.png) | Ignored | [Details](#5e9287dcfe1e1fad1a9320d535b75ce74b5275ed84)
  [MIMDocs\media\AzureWebsiteIcons-reference.png](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/media/AzureWebsiteIcons-reference.png) | Ignored | [Details](#2c64b44682486112afee4a69768f08d07521144b85)
@@ -1333,12 +1333,12 @@
 * Handback Datetime: 2016-04-19 01:40:09
 * [Back to Top](#report-top)
 
-##### <a name='62f14b7d815943bda0ecf7c608bbf05a0c1c852c81'></a> Source: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/7639dc76a809b5f8552bca52018b02a0b0df8c7f/MIMDocs/index.md)
-* Status: HandedOffSuccess
+##### <a name='cd44e8ee2ee8dc74c05194130a414b1d9fdc711a81'></a> Source: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/0fb4f64838a36d58221571b6568589d003b92238/MIMDocs/index.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/2d6156ebb7091d5ba19327ad23f437055083787b/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf)
-* Handoff Datetime: 2016-04-25 21:18:32
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
