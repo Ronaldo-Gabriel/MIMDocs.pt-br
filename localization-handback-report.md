@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [MIMDocs\DeployUse\working-with-identity-manager-hybrid-reporting.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-identity-manager-hybrid-reporting.md) | InSyncHandedBackSuccess | [Details](#e2d0bd6120628d4fd2a14718fc205cde976c778572)
- [MIMDocs\DeployUse\working-with-mim-certificate-manager.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-mim-certificate-manager.md) | InSyncHandedBackSuccess | [Details](#3e0e6cea0b268836bb6347e81694deec93320ce373)
 
 ## Item Details
-##### <a name='e2d0bd6120628d4fd2a14718fc205cde976c778572'></a> Source: [MIMDocs\DeployUse\working-with-identity-manager-hybrid-reporting.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-identity-manager-hybrid-reporting.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\working-with-identity-manager-hybrid-reporting.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/ba5e329bbceab58a83503c992649211f4572f944/MIMDocs/DeployUse/working-with-identity-manager-hybrid-reporting.md)
-* Handoff File: [working-with-identity-manager-hybrid-reporting.5a9babf73d10bd3782be289eab3b82b139127433.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/e15c454e616411a4b77b6c1f42999784de49a0e8/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/working-with-identity-manager-hybrid-reporting.5a9babf73d10bd3782be289eab3b82b139127433.pt-br.xlf)
-* Handoff Datetime: 2016-04-11 22:07:45
-* Handoff Reason: Include
-* Archive File: [working-with-identity-manager-hybrid-reporting.5a9babf73d10bd3782be289eab3b82b139127433.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/812c4906d9e8dbeffc3a12726f77fd63fe771b31/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/archive/working-with-identity-manager-hybrid-reporting.5a9babf73d10bd3782be289eab3b82b139127433.pt-br.xlf)
-* Archive Datetime: 2016-04-16 01:32:56
-* Handback File: [working-with-identity-manager-hybrid-reporting.5a9babf73d10bd3782be289eab3b82b139127433.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/27d678b8a5ecd3c6d8d90e50fbeb56f6a636c332/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/working-with-identity-manager-hybrid-reporting.5a9babf73d10bd3782be289eab3b82b139127433.pt-br.xlf)
-* Handback Datetime: 2016-05-03 17:34:10
-* [Back to Top](#report-top)
-
-##### <a name='3e0e6cea0b268836bb6347e81694deec93320ce373'></a> Source: [MIMDocs\DeployUse\working-with-mim-certificate-manager.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-mim-certificate-manager.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\working-with-mim-certificate-manager.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/ba5e329bbceab58a83503c992649211f4572f944/MIMDocs/DeployUse/working-with-mim-certificate-manager.md)
-* Handoff File: [working-with-mim-certificate-manager.96aa090a3f47ac4d3cab460f5cd884461f8c2180.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/e15c454e616411a4b77b6c1f42999784de49a0e8/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/working-with-mim-certificate-manager.96aa090a3f47ac4d3cab460f5cd884461f8c2180.pt-br.xlf)
-* Handoff Datetime: 2016-04-11 22:07:45
-* Handoff Reason: Include
-* Archive File: [working-with-mim-certificate-manager.96aa090a3f47ac4d3cab460f5cd884461f8c2180.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/812c4906d9e8dbeffc3a12726f77fd63fe771b31/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/archive/working-with-mim-certificate-manager.96aa090a3f47ac4d3cab460f5cd884461f8c2180.pt-br.xlf)
-* Archive Datetime: 2016-04-16 01:32:56
-* Handback File: [working-with-mim-certificate-manager.96aa090a3f47ac4d3cab460f5cd884461f8c2180.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/27d678b8a5ecd3c6d8d90e50fbeb56f6a636c332/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/working-with-mim-certificate-manager.96aa090a3f47ac4d3cab460f5cd884461f8c2180.pt-br.xlf)
-* Handback Datetime: 2016-05-03 17:34:10
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
