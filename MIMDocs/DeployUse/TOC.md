@@ -1,6 +1,6 @@
-# [Compreensão e exploração](/microsoft-identity-manager/Understand/microsoft-identity-manager-2016)
-# [Plano e design](/microsoft-identity-manager/PlanDesign/microsoft-identity-manager-2016-supported-platforms)
-# [Implantação e uso](microsoft-identity-manager-deploy.md)
+# [Compreensão e Exploração](/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016)
+# [Plano e design](/microsoft-identity-manager/plan-design/microsoft-identity-manager-2016-supported-platforms)
+# [Implantação e Uso](microsoft-identity-manager-deploy.md)
 ## [Implantação inicial](microsoft-identity-manager-deploy.md)
 ### [Configuração de domínio](preparing-domain.md)
 ### [Configuração de servidor: Windows Server](prepare-server-ws2012r2.md)
@@ -20,6 +20,6 @@
 # [Referência do desenvolvedor](/microsoft-identity-manager/reference/microsoft-identity-manager-2016-developer-reference)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
