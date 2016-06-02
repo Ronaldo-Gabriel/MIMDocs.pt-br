@@ -32,15 +32,18 @@ ms.suite: ems
 [Serviço e Portal do MIM »](install-mim-service-portal.md)
 
 > [!NOTE]
-> Em todos os exemplos a seguir, **mimservername** representa o nome do controlador de domínio, **contoso** representa o nome do domínio e **Pass@word1** representa uma senha de exemplo.
+> Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
+> - Nome do controlador de domínio - **mimservername**
+> - Nome do domínio - **contoso**
+> - Senha - **Pass@word1**
 
-Para instalar os componentes do Microsoft Identity Manager 2016, primeiro:
+Para instalar os componentes do Microsoft Identity Manager 2016, primeiramente configure o pacote de instalação.
 
-1. Entre como *Contoso\administrador* no servidor CORPIDM que você está usando para o gerenciamento de identidades.
+1. Entre como *contoso\Administrador* no servidor que você está usando para o gerenciamento de identidades.
 
 2. Descompacte o pacote de instalação do MIM ou monte o DVD de imagem do MIM.
 
-## Instale o Serviço de Sincronização (Sync) do MIM 2016
+## Instalar o serviço de sincronização MIM 2016
 
 1. Na pasta de instalação descompactada do MIM, navegue até a pasta **Serviço de Sincronização** .
 
@@ -50,7 +53,7 @@ Para instalar os componentes do Microsoft Identity Manager 2016, primeiro:
 
     ![Imagem de boas-vindas do assistente do instalador do MIM](media/MIM-Install1.png)
 
-4. Leia os termos de licença e, se aceitá-los, clique em **Avançar**.
+4. Leia os termos de licença e clique em **Avançar** para aceitá-los.
 
 5. Na tela **Instalação Personalizada** clique em **Avançar**.
 
@@ -76,15 +79,15 @@ Para instalar os componentes do Microsoft Identity Manager 2016, primeiro:
 
 8.  Fornece ao instalador de sincronização do MIM os grupos de segurança relevantes:
 
-    1.  Administrador = *contoso\MIMSyncAdmins*
+    1. Administrador = *contoso\MIMSyncAdmins*
 
-    2.  Operador= *contoso\MIMSyncOperators*
+    2. Operador= *contoso\MIMSyncOperators*
 
-    3.  Ligação = *contoso\MIMSyncJoiners*
+    3. Ligação = *contoso\MIMSyncJoiners*
 
-    4.  Navegador do conector = *contoso\MIMSyncBrowse*
+    4. Navegador do conector = *contoso\MIMSyncBrowse*
 
-    5.  Gerenciamento de senha do WMI = *contoso\MIMSyncPasswordReset*
+    5. Gerenciamento de senha do WMI = *contoso\MIMSyncPasswordReset*
 
     ![Imagem de grupos de segurança](media/MIM-Install5.png)
 
@@ -92,27 +95,23 @@ Para instalar os componentes do Microsoft Identity Manager 2016, primeiro:
 
 10. Clique em **Instalar** para iniciar a instalação de Sincronização do MIM.
 
-    1.  Um aviso sobre a conta de serviço de sincronização do MIM pode aparecer – clique em **OK**.
+    1. Um aviso sobre a conta de serviço de sincronização do MIM pode aparecer – clique em **OK**.
 
-    2.  A sincronização do MIM agora será instalada.
+    2. A Sincronização do MIM será instalada.
 
-        ![Imagem de status de instalação de Sincronização do MIM](media/MIM-Install6.png)
-
-    3.  Um aviso sobre a criação de um backup da chave de criptografia é exibido. Clique em **OK** e selecione uma pasta para armazenar o backup da chave de criptografia.
+    3. Um aviso sobre a criação de um backup da chave de criptografia é exibido. Clique em **OK** e selecione uma pasta para armazenar o backup da chave de criptografia.
 
         ![Imagem da chave de criptografia de backup de Sync do MIM](media/MIM-Install7.png)
 
-    4.  Quando o instalador concluir com sucesso a instalação, clique em **Concluir**.
+    4. Quando o instalador concluir com sucesso a instalação, clique em **Concluir**.
 
-        ![Imagem de instalação bem-sucedida do Sincronização do MIM](media/MIM-Install8.png)
-
-    5.  Você precisa sair e entrar para que as alterações de associação de grupo entrem em vigor. Clique em **Sim** Sair.
+    5. Você precisa sair e entrar para que as alterações de associação de grupo entrem em vigor. Clique em **Sim** Sair.
 
 >[!div class="step-by-step"]  
 [« Exchange Server](prepare-server-exchange.md)
 [Serviço e Portal do MIM »](install-mim-service-portal.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

@@ -30,42 +30,49 @@ ms.suite: ems
 >[!div class="step-by-step"]  
 [Windows Server 2012 R2 »](prepare-server-ws2012r2.md)
 
+O MIM (Microsoft Identity Manager) trabalha com o domínio do AD (Active Directory). Você já deve ter o AD instalado e verificar se tem um controlador de domínio em seu ambiente para um domínio que possa administrar.
+
+Este artigo explica as etapas para preparar seu domínio para trabalhar com o MIM.
+
 ## Crie contas de usuários e grupos
 
-O MIM requer que o Active Directory já esteja instalado. Verifique se que você tem um controlador de domínio em seu ambiente para um domínio que você possa administrar.
+Todos os componentes da implantação do MIM precisam de suas próprias identidades no domínio. Isso inclui os componentes do MIM como Serviço e Sincronização, bem como SharePoint e o SQL.
 
 > [!NOTE]
-> Em todos os exemplos a seguir, **mimservername** representa o nome do controlador de domínio, **contoso** representa o nome do domínio e **Pass@word1** representa uma senha de exemplo.
+> Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
+> - Nome do controlador de domínio - **mimservername**
+> - Nome do domínio - **contoso**
+> - Senha - **Pass@word1**
 
 1. Entre no controlador de domínio como o Administrator do domínio com a senha (*e. g. Contoso\Administrador*).
 
 2. Crie as seguintes contas de usuário para serviços do MIM. Inicie o PowerShell e digite o script a seguir para atualizar o domínio.
 
-        ```
-        import-module activedirectory
-        $sp = ConvertTo-SecureString "Pass@word1" –asplaintext –force
-        New-ADUser –SamAccountName MIMMA –name MIMMA
-        Set-ADAccountPassword –identity MIMMA –NewPassword $sp
-        Set-ADUser –identity MIMMA –Enabled 1 –PasswordNeverExpires 1
-        New-ADUser –SamAccountName MIMSync –name MIMSync
-        Set-ADAccountPassword –identity MIMSync –NewPassword $sp
-        Set-ADUser –identity MIMSync –Enabled 1 –PasswordNeverExpires 1
-        New-ADUser –SamAccountName MIMService –name MIMService
-        Set-ADAccountPassword –identity MIMService –NewPassword $sp
-        Set-ADUser –identity MIMService –Enabled 1 –PasswordNeverExpires 1
-        New-ADUser –SamAccountName MIMSSPR –name MIMSSPR
-        Set-ADAccountPassword –identity MIMSSPR –NewPassword $sp
-        Set-ADUser –identity MIMSSPR –Enabled 1 –PasswordNeverExpires 1
-        New-ADUser –SamAccountName SharePoint –name SharePoint
-        Set-ADAccountPassword –identity SharePoint –NewPassword $sp
-        Set-ADUser –identity SharePoint –Enabled 1 –PasswordNeverExpires 1
-        New-ADUser –SamAccountName SqlServer –name SqlServer
-        Set-ADAccountPassword –identity SqlServer –NewPassword $sp
-        Set-ADUser –identity SqlServer –Enabled 1 –PasswordNeverExpires 1
-        New-ADUser –SamAccountName BackupAdmin –name BackupAdmin
-        Set-ADAccountPassword –identity BackupAdmin –NewPassword $sp
-        Set-ADUser –identity BackupAdmin –Enabled 1 -PasswordNeverExpires 1
-        ```
+    ```
+    import-module activedirectory
+    $sp = ConvertTo-SecureString "Pass@word1" –asplaintext –force
+    New-ADUser –SamAccountName MIMMA –name MIMMA
+    Set-ADAccountPassword –identity MIMMA –NewPassword $sp
+    Set-ADUser –identity MIMMA –Enabled 1 –PasswordNeverExpires 1
+    New-ADUser –SamAccountName MIMSync –name MIMSync
+    Set-ADAccountPassword –identity MIMSync –NewPassword $sp
+    Set-ADUser –identity MIMSync –Enabled 1 –PasswordNeverExpires 1
+    New-ADUser –SamAccountName MIMService –name MIMService
+    Set-ADAccountPassword –identity MIMService –NewPassword $sp
+    Set-ADUser –identity MIMService –Enabled 1 –PasswordNeverExpires 1
+    New-ADUser –SamAccountName MIMSSPR –name MIMSSPR
+    Set-ADAccountPassword –identity MIMSSPR –NewPassword $sp
+    Set-ADUser –identity MIMSSPR –Enabled 1 –PasswordNeverExpires 1
+    New-ADUser –SamAccountName SharePoint –name SharePoint
+    Set-ADAccountPassword –identity SharePoint –NewPassword $sp
+    Set-ADUser –identity SharePoint –Enabled 1 –PasswordNeverExpires 1
+    New-ADUser –SamAccountName SqlServer –name SqlServer
+    Set-ADAccountPassword –identity SqlServer –NewPassword $sp
+    Set-ADUser –identity SqlServer –Enabled 1 –PasswordNeverExpires 1
+    New-ADUser –SamAccountName BackupAdmin –name BackupAdmin
+    Set-ADAccountPassword –identity BackupAdmin –NewPassword $sp
+    Set-ADUser –identity BackupAdmin –Enabled 1 -PasswordNeverExpires 1
+    ```
 
 2.  Crie grupos de segurança para todos os grupos.
 
@@ -92,6 +99,6 @@ O MIM requer que o Active Directory já esteja instalado. Verifique se que você
 [Windows Server 2012 R2 »](prepare-server-ws2012r2.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

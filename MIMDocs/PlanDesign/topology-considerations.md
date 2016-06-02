@@ -2,7 +2,7 @@
 # required metadata
 
 title: Considerações de topologia para implantação do MIM | Microsoft Identity Manager
-description: Compreender os componentes do MIM 2016 e obter sugestões sobre como implantá-los em seu ambiente. 
+description: Compreender os componentes do MIM 2016 e obter sugestões sobre como implantá-los em seu ambiente.
 keywords:
 author: kgremban
 manager: stevenpo
@@ -59,24 +59,18 @@ Nessa configuração, o Serviço de Sincronização do MIM e seu banco de dados 
 
 
 ## Topologia de multicamadas com vários serviços do MIM
-A sincronização de dados com sistemas externos pode adicionar uma carga considerável ao sistema e ser executada por um longo período de tempo. Se a configuração da sincronização resulta em disparo de políticas com fluxos de trabalho, essas políticas disputam recursos com os fluxos de trabalho do usuário final. Esses problemas podem ser pronunciados com fluxos de trabalho de autenticação, como redefinições de senha, que são feitas em tempo real com um usuário final aguardando a conclusão do processo. Fornecendo uma instância do Serviço do MIM para operações de usuário final e um portal separado para a sincronização de dados administrativos, você pode fornecer melhor capacidade de resposta para operações de usuário final.
+A sincronização de dados com sistemas externos pode demorar bastante e acrescentar uma carga considerável ao sistema durante esse período. Se a configuração da sincronização resulta em disparo de políticas com fluxos de trabalho, essas políticas disputam recursos com os fluxos de trabalho do usuário final. Esses problemas podem ser pronunciados com fluxos de trabalho de autenticação, como redefinições de senha, que são feitas em tempo real com um usuário final aguardando a conclusão do processo. Fornecendo uma instância do Serviço do MIM para operações de usuário final e um portal separado para a sincronização de dados administrativos, você pode fornecer melhor capacidade de resposta para operações de usuário final.
 
 ![Vários diagramas de topologia de multicamadas do MIM](media/MIM-topo-multitier-multiservice.png)
 
 Como com a topologia padrão de multicamadas, você pode aumentar o desempenho do Portal do MIM usando um cluster NLB e aumentando o número de nós no cluster conforme necessário.
 
-Os computadores de desempenho executando o SQL Server que hospedam o Serviço de Sincronização do MIM e o banco de dados do Serviço do MIM influenciarão drasticamente o desempenho geral da implantação do MIM. Portanto, siga as recomendações na documentação do SQL Server para otimizar o desempenho do banco de dados. Para obter mais informações, consulte os seguintes documentos:
-
-- [As 10 melhores práticas de armazenamento recomendadas](http://go.microsoft.com/fwlink/?LinkID=183663)
-
-- [Otimização do desempenho de tempdb](http://go.microsoft.com/fwlink/?LinkID=188267)
-
-- [Artigo de práticas recomendado do SQL Server](http://go.microsoft.com/fwlink/?LinkID=188268)
+Os computadores que executam o SQL Server e que hospedam o Serviço de Sincronização do MIM e o banco de dados do Serviço do MIM influenciarão drasticamente o desempenho geral da implantação do MIM. Portanto, siga as recomendações na documentação do SQL Server para otimizar o desempenho do banco de dados. Para obter mais informações, consulte os seguintes documentos:
 
 ## Consulte também
 - O [Guia de planejamento de capacidade do FIM (Forefront Identity Manager) 2010](http://go.microsoft.com/fwlink/?LinkId=200180) baixável apresenta mais detalhes sobre um build de teste e resultados de teste de desempenho.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

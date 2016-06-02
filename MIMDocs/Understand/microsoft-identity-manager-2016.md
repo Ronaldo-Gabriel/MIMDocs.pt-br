@@ -26,16 +26,17 @@ ms.suite: ems
 ---
 
 # Microsoft Identity Manager 2016
-O MIM 2016 amplia as funcionalidades de gerenciamento de identidades e acesso já fortes do FIM 2010 R2 e adiciona experiência híbrida e funcionalidades de gerenciamento de acesso de privilégio, bem como suporte para novas plataformas.
+O MIM (Microsoft Identity Manager) 2016 foi desenvolvido com base nos recursos de gerenciamento de identidades e acessos do FIM 2010 R2. Como seu antecessor, o MIM ajuda você a gerenciar usuários, credenciais, políticas e acessos na sua organização.  Além disso, o MIM 2016 adiciona uma experiência híbrida, recursos de gerenciamento com acesso privilegiado e suporte para novas plataformas.
+
+Esta versão do Microsoft Identity Manager fornece novos recursos como o Gerenciador de identidade com privilégios e suporte do Gerenciamento de certificados para acesso à API REST. Em Gerenciamento de certificados, agora há suporte para topologias de várias florestas, um aplicativo da Windows Store para gerenciamento de ciclo de vida de cartão inteligente e certificados virtual, eventos atualizados e recursos de solução de problemas. Cenários de autoatendimento agora incluem o desbloqueio de conta e porta de autenticação multifator para redefinição de senha.
 
 ## Experiência híbrida
-O Microsoft Identity Manager 2016 fornece suporte para relatórios híbridos do MIM incluídos nos relatórios do AD do Azure. Além disso, o portal de redefinição de senha por autoatendimento dá suporte para Azure Multi-Factor Authentication (MFA).
+O Microsoft Identity Manager 2016 funciona com o Azure para fornecer a você controle sobre todo o ambiente. O relatório híbrido no Azure apresenta seus dados locais e da nuvem em um único local. Além disso, o portal de Redefinição de Senha por Autoatendimento é compatível com o Azure MFA (Multi-Factor Authentication).
 
 ## Gerenciamento de identidades com privilégios
-O Gerenciamento de identidades com privilégios controla e gerencia o acesso administrativo fornecendo acesso temporário baseado em tarefas a recursos confidenciais, eliminando o acesso administrativo com carta branca cobiçado por invasores virtuais. Além disso, o gerenciamento de identidades com privilégios extrai e isola as contas administrativas de florestas do Active Directory existentes.
+O Privileged Identity Management controla e gerencia o acesso administrativo fornecendo acesso temporário baseado em tarefas a recursos confidenciais. Isso significa que você pode fornecer aos usuários apenas a permissão necessária, o que reduz as chances de um invasor cibernético conseguir acesso administrativo completo. Além disso, o gerenciamento de identidades com privilégios extrai e isola as contas administrativas de florestas do Active Directory existentes.
 
-## Modernização
-Esta versão do Microsoft Identity Manager fornece novos recursos como o Gerenciador de identidade com privilégios e suporte do Gerenciamento de certificados para acesso à API REST. Em Gerenciamento de certificados, agora há suporte para topologias de várias florestas, um aplicativo da Windows Store para gerenciamento de ciclo de vida de cartão inteligente e certificados virtual, eventos atualizados e recursos de solução de problemas. Cenários de autoatendimento agora incluem o desbloqueio de conta e porta de autenticação multifator para redefinição de senha.
+## Plataformas com suporte
 
 O MIM dá suporte a uma lista atualizada de produtos e plataformas, incluindo as plataformas mais recentes da Microsoft e pilhas do Office/servidor, sistema operacional do Windows Client, sistema operacional do Windows Server, SharePoint, SQL e Outlook, especificamente:
 
@@ -49,11 +50,7 @@ O MIM dá suporte a uma lista atualizada de produtos e plataformas, incluindo as
 
 -   System Center Service Manager 2012 e 2012 R2
 
-Para obter mais informações sobre componentes do Gerenciador de identidade existentes anteriormente, consulte o seguinte:
 
--   [Microsoft BHOLD Suite](https://technet.microsoft.com/en-us/library/jj134096.aspx)
-
-
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

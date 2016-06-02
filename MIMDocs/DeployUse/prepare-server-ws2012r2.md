@@ -32,23 +32,24 @@ ms.suite: ems
 [SQL Server 2014 »](prepare-server-sql2014.md)
 
 > [!NOTE]
-> Em todos os exemplos a seguir, **mimservername** representa o nome do controlador de domínio, **contoso** representa o nome do domínio e **Pass@word1** representa uma senha de exemplo.
+> Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
+> - Nome do controlador de domínio - **mimservername**
+> - Nome do domínio - **contoso**
+> - Senha - **Pass@word1**
 
 ## Adicione o Windows Server 2012 R2 ao domínio
 
-1. Crie um computador Windows Server 2012 R2 com um mínimo de 8 GB de RAM. Ao instalar, especifique a edição "Windows Server 2012 R2 Standard (servidor com GUI) x64".
+Comece com um computador Windows Server 2012 R2 com um mínimo de 8 GB de RAM. Ao instalar, especifique a edição "Windows Server 2012 R2 Standard (servidor com GUI) x64".
 
-2. Faça logon no novo computador como administrador.
+1. Faça logon no novo computador como administrador.
 
-3. Usando o painel de controle, dê ao computador um endereço IP estático em uma rede. Configure essa interface de rede para enviar consultas DNS para o endereço IP do controlador de domínio na etapa anterior e defina o nome do computador para **CORPIDM**.  Isso exigirá reinicializar o servidor.
+2. Usando o painel de controle, dê ao computador um endereço IP estático em uma rede. Configure essa interface de rede para enviar consultas DNS para o endereço IP do controlador de domínio na etapa anterior e defina o nome do computador para **CORPIDM**.  Isso exigirá reinicializar o servidor.
 
-4. Se o computador estiver em uma rede virtual que não forneça conectividade com a Internet, adicione uma interface de rede extra para o computador que forneça uma conexão com a Internet.  Isso é necessário para a instalação do SharePoint e pode ser desabilitado após essa etapa ser concluída.
+3. Abra o painel de controle e ingresse o computador no domínio que você configurou na última etapa, *contoso.local*.  Isso inclui fornecer o nome de usuário e s credenciais de um administrador de domínio, tal como *Contoso\Administrador*.  Depois que a mensagem de boas-vindas for exibida, feche a caixa de diálogo e reinicie o servidor novamente.
 
-5. Abra o painel de controle e ingresse o computador no domínio que você configurou na última etapa, *contoso.local*.  Isso inclui fornecer o nome de usuário e s credenciais de um administrador de domínio, tal como *Contoso\Administrador*.  Depois que a mensagem de boas-vindas for exibida, feche a caixa de diálogo e reinicie o servidor novamente.
+4. Entre no computador *CorpIDM* como um administrador de domínio, tal como *Contoso\Administrador*.
 
-6. Entre no computador *CorpIDM* como um administrador de domínio, tal como *Contoso\Administrador*.
-
-7. Inicie uma janela do PowerShell como administrador e digite o seguinte comando para atualizar o computador com as configurações da política de grupo.
+5. Inicie uma janela do PowerShell como administrador e digite o seguinte comando para atualizar o computador com as configurações da política de grupo.
 
     ```
     gpupdate /force /target:computer
@@ -56,11 +57,11 @@ ms.suite: ems
 
     Após não mais que minuto, será concluído com a mensagem "A atualização da política do computador foi concluída com sucesso".
 
-8. Adicione as funções **Servidor Web (IIS)** e **Servidor de Aplicativos**, os recursos **.NET Framework** 3.5, 4.0 e 4.5 e o módulo **Active Directory** para o Windows PowerShell.
+6. Adicione as funções **Servidor Web (IIS)** e **Servidor de Aplicativos**, os recursos **.NET Framework** 3.5, 4.0 e 4.5 e o módulo **Active Directory** para o Windows PowerShell.
 
     ![Imagem de recursos do PowerShell](media/MIM-DeployWS2.png)
 
-9. No PowerShell, abra como um administrador e digite os seguintes comandos. Observe que talvez seja necessário especificar um local diferente para os arquivos de origem para os recursos do **.NET Framework** 3.5. Normalmente, esses recursos não estão presentes no momento da instalação do Windows Server, mas estão disponíveis na pasta (SxS) lado a lado na pasta de origens do disco de instalação do SO, por exemplo, “*d:\Sources\SxS\*”.
+7. No PowerShell, digite os comandos a seguir. Observe que talvez seja necessário especificar um local diferente para os arquivos de origem para os recursos do **.NET Framework** 3.5. Normalmente, esses recursos não estão presentes no momento da instalação do Windows Server, mas estão disponíveis na pasta (SxS) lado a lado na pasta de origens do disco de instalação do SO, por exemplo, “*d:\Sources\SxS\*”.
 
     ```
     import-module ServerManager
@@ -104,17 +105,17 @@ Configure a política de segurança do servidor para permitir que as contas cria
 
 2.  Pare o IIS com o comando *iisreset /STOP*
 
-        ```
-        iisreset /STOP
-        C:\Windows\System32\inetsrv\appcmd.exe unlock config /section:windowsAuthentication -commit:apphost
-        iisreset /START
-        ```
+    ```
+    iisreset /STOP
+    C:\Windows\System32\inetsrv\appcmd.exe unlock config /section:windowsAuthentication -commit:apphost
+    iisreset /START
+    ```
 
 >[!div class="step-by-step"]  
 [«Preparação de um domínio](preparing-domain.md)
 [SQL Server 2014 »](prepare-server-sql2014.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -32,7 +32,10 @@ ms.suite: ems
 [SharePoint »](prepare-server-sharepoint.md)
 
 > [!NOTE]
-> Em todos os exemplos a seguir, **mimservername** representa o nome do controlador de domínio, **contoso** representa o nome do domínio e **Pass@word1** representa uma senha de exemplo.
+> Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
+> - Nome do controlador de domínio - **mimservername**
+> - Nome do domínio - **contoso**
+> - Senha - **Pass@word1**
 
 ## Instale o **SQL Server 2014 Standard Edition**
 
@@ -51,6 +54,6 @@ ms.suite: ems
 [SharePoint »](prepare-server-sharepoint.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

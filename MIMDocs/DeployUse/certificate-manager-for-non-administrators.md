@@ -2,7 +2,7 @@
 # required metadata
 
 title: Registrar cartões inteligentes para não administradores | Microsoft Identity Manager
-description: Saiba como registrar cartões inteligentes para os computadores de usuários sem acesso de administrador para que possam usar o Gerenciador de certificados.
+description: Saiba como registrar cartões inteligentes para usuários sem acesso de administrador aos respectivos computadores para que eles possam usar o Gerenciador de Certificados.
 keywords:
 author: kgremban
 manager: stevenpo
@@ -28,7 +28,7 @@ ms.suite: ems
 # Registrar cartões inteligentes para não administradores
 Se um usuário não for um administrador local no seu computador, ele não poderá registrar um cartão inteligente em seu próprio computador por padrão. O procedimento a seguir permite que você contorne essa limitação.
 
-## Habilitando a renovação do cartão inteligente para não administradores no Gerenciador de certificados 2016 MIM
+## Habilitando a renovação do cartão inteligente para não administradores no Gerenciador de Certificados do MIM 2016
 
 1.  **Descompactar o arquivo appx**
 
@@ -70,7 +70,7 @@ Se um usuário não for um administrador local no seu computador, ele não poder
 
     `makeappx pack /l /d .\appx /p <app package name>.appx`
 
-    s`igntool sign /f <path\>mysign.pfx /p <pfx password> /fd "sha256" <app package name>.appx`
+    p`igntool sign /f <path\>mysign.pfx /p <pfx password> /fd "sha256" <app package name>.appx`
 
 4.  Duplique o modelo de perfil e adicione a chave de administrador inicial para configurar o servidor MIM:
 
@@ -90,7 +90,7 @@ Se um usuário não for um administrador local no seu computador, ele não poder
 
     Os usuários não administradores não podem criar o cartão inteligente virtual do TPM, você precisará criá-lo para eles.
 
-6.  **Criar um cartão de inteligente virtual usando TpmVscMgr**
+6.  **Criar um cartão inteligente virtual usando TpmVscMgr**
 
     Execute o seguinte (ainda como administrador) para criar um cartão inteligente virtual vazio em um computador. Isso pode ser feito por meio do Intune, o SCCM ou grupo de políticas.
 
@@ -98,9 +98,9 @@ Se um usuário não for um administrador local no seu computador, ele não poder
 
 7.  **Instalar o aplicativo CM na conta de não administrativa**
 
-8.  **Inicie o aplicativo CM e registre-se para um cartão inteligente virtual**
+8.  **Iniciar o aplicativo CM e registrar para um cartão inteligente virtual**
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

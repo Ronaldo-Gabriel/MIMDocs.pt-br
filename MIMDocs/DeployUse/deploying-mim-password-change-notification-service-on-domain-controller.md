@@ -60,12 +60,12 @@ O PCNS (Serviço de notificação de alteração de senha) é um serviço que vo
 
 13. Quando a tela de instalação for concluída com sucesso aparecer, clique em **Concluir**.
 
-14. Reinicie o computador para que as alterações feitas ao Serviço de Notificação de Alteração de Senha do MIM entrem em vigor. Você pode fazer isso clicando em **Sim** na mensagem pop-up que aparece ou pode reiniciar mais tarde.
+14. Reinicie o computador para que as alterações feitas ao Serviço de Notificação de Alteração de Senha do MIM entrem em vigor. Você pode fazer isso clicando em **Sim** na janela pop-up que aparece ou pode reiniciar mais tarde.
 
 ## Configuração do Serviço de notificação de alteração de senha
 Uma vez reconectado ao servidor de DC como um administrador de domínio, vá para *C:\Program Files\Microsoft Password Change Notification.* Execute *pcnscfg.exe*.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

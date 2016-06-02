@@ -2,7 +2,7 @@
 # required metadata
 
 title: Configuração de um servidor de gerenciamento de identidade& #58; Exchange | Microsoft Identity Manager
-description: Como uma etapa opcional, implante o Exchange Server para habilitar o MIM 2016 para enviar emails e criar caixas de correio. 
+description: Como uma etapa opcional, implante o Exchange Server para habilitar o MIM 2016 para enviar emails e criar caixas de correio.
 keywords:
 author: kgremban
 manager: stevenpo
@@ -31,11 +31,8 @@ ms.suite: ems
 [« SharePoint](prepare-server-sharepoint.md)
 [Serviço de Sincronização do MIM »](install-mim-sync.md)
 
-> [!NOTE]
-> Em todos os exemplos a seguir, **mimservername** representa o nome do controlador de domínio, **contoso** representa o nome do domínio e **Pass@word1** representa uma senha de exemplo.
-
 ## Implantar o Microsoft Exchange Server
-Se você quiser configurar o MIM para enviar e receber email ou provisionar caixas de correio, é necessário ter o Exchange presente no ambiente. Se você ainda não tiver o Exchange implantado, pode instalar uma versão de avaliação para fins de avaliação.
+Se você quiser configurar o MIM para enviar e receber email ou provisionar caixas de correio, é necessário ter o Exchange presente no ambiente. Se você ainda não tiver o Exchange implantado, é possível instalar uma versão de avaliação para fins de avaliação:
 
 1. Baixe e instale o Microsoft Office 2010 Filter Packs – versão 2.0 + pacotes de filtro do Microsoft Office 2010 – versão 2.0 SP1
 
@@ -52,6 +49,6 @@ Se você quiser configurar o MIM para enviar e receber email ou provisionar caix
 [Serviço de Sincronização do MIM »](install-mim-sync.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

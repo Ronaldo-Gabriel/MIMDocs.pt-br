@@ -32,35 +32,36 @@ ms.suite: ems
 [Sincronização dos bancos de dados »](install-mim-sync-ad-service.md)
 
 > [!NOTE]
-> Em todos os exemplos a seguir, **mimservername** representa o nome do controlador de domínio, **contoso** representa o nome do domínio e **Pass@word1** representa uma senha de exemplo.
+> Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
+> - Nome do controlador de domínio - **mimservername**
+> - Nome do domínio - **contoso**
+> - Senha - **Pass@word1**
+> - Nome da conta de serviço: **MIMService**
 
-Se você não configurou o pacote de instalação do MIM na última etapa, siga estas etapas para instalar componentes do Microsoft Identity Manager 2016:
+Se você não configurou o pacote de instalação do MIM na última etapa, volte e instale os componentes do Microsoft Identity Manager 2016 antes de continuar.
 
-1. Entre como *Contoso\administrador* no servidor CORPIDM que você está usando para o gerenciamento de identidades.
-
-2. Descompacte o pacote de instalação do MIM ou monte o DVD de imagem do MIM.
 
 ## Configure o Serviço e o Portal do MIM para instalação
 
-1.  Execute o **instalador de Serviço e Portal do MIM** na subpasta **Serviço e Portal** descompactada.
+1. Execute o **instalador de Serviço e Portal do MIM** na subpasta **Serviço e Portal** descompactada.
 
-2.  Na tela de boas-vindas, clique em **Avançar**.
+2. Na tela de boas-vindas, clique em **Avançar**.
 
-3.  Leia os Temos de Licença e, se você aceitá-los, clique em **Avançar**.
+3. Leia o Contrato de Licença do Usuário Final e clique em **Avançar** se você aceitar os termos de licença.
 
-4.  Na tela do **Programa de Aperfeiçoamento da Experiência do Usuário do MIM**, clique em **Avançar**.
+4. Na tela do **Programa de Aperfeiçoamento da Experiência do Usuário do MIM**, clique em **Avançar**.
 
-5.  Ao selecionar os recursos do componente para essa implantação, é necessário incluir o Serviço do MIM (exceto o Relatório do MIM) e os recursos do Portal do MIM. Você também pode selecionar o Portal de Redefinição de Senha do MIM e o Serviço de Notificação de Alteração de Senha do MIM.
+5. Ao selecionar os recursos do componente para essa implantação, é necessário incluir o Serviço do MIM (exceto o Relatório do MIM) e os recursos do Portal do MIM. Você também pode selecionar o Portal de Redefinição de Senha do MIM e o Serviço de Notificação de Alteração de Senha do MIM.
 
-6.  Na página **Configurar a conexão de banco de dados do MIM**, especifique **Criar um novo banco de dados**.
+6. Na página **Configurar a conexão de banco de dados do MIM**, escolha **Criar um novo banco de dados**.
 
     ![Configure a imagem de conexão de banco de dados do MIM](media/MIM-Install10.png)
 
-7.  Em **Configurar conexão do servidor de email**, insira o nome do seu Exchange server como **Servidor de Email**. Se você não tiver um servidor de email configurado, especifique o localhost como o nome do servidor de email e desmarque as duas caixas de seleção superiores. Clique em **Avançar**.
+7. Em **Configurar conexão do servidor de email**, insira o nome do seu Exchange server como **Servidor de Email**. Se você não tiver um servidor de email configurado, use **localhost** como o nome do servidor de email e desmarque as duas caixas de seleção superiores. Clique em **Avançar**.
 
     ![Configurar a imagem de conexão do servidor de email](media/MIM-Install11.png)
 
-8.  Especifique se deseja gerar um novo certificado autoassinado ou selecione o certificado apropriado.
+8. Especifique se deseja gerar um novo certificado autoassinado ou selecione o certificado apropriado.
 
 9. Especifique o nome da conta de serviço a usar, por exemplo, *MIMService*, e a senha da conta de serviço, por exemplo, *Pass@word1*, seu domínio da conta de serviço, por exemplo, *contoso*, e a conta de email de serviço, por exemplo, *contoso*.
 
@@ -110,8 +111,6 @@ Se você não configurou o pacote de instalação do MIM na última etapa, siga 
 
 Quando todas as definições de pré-instalação estiverem prontas, clique em **Instalar** para começar a instalação dos componentes de **Serviço e Portal** selecionados.
 
-![Instale a imagem do Serviço e Portal do MIM](media/MIM-Install16.png)
-
 Após a conclusão da instalação, verifique se o Portal do MIM está ativo.
 
 1. Inicie o Internet Explorer e conecte-se ao Portal do MIM em *http://corpidm.contoso.local:82/identitymanagement*. Observe que pode haver um pequeno atraso na primeira visita a esta página.
@@ -158,6 +157,6 @@ Após a conclusão da instalação, verifique se o Portal do MIM está ativo.
 [Sincronização dos bancos de dados »](install-mim-sync-ad-service.md)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 
