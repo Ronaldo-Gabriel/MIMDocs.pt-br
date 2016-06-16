@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr/blob/8fd779bcc4d41b6e67d0fa31aa0f37c4ea2b410a/MIMDocs/DeployUse/install-mim-sync-ad-service.md) | InSyncHandedBackSuccess | [Details](#f4e94980c6a03b08221fd46e19c421cce226086d11)
- [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/d333b77ae65be2ce2082a18c7e352a99195c2773/MIMDocs/index.md) | InSyncHandedBackSuccess | [Details](#285205578983eca4189da7ac0fdf0a9ee52b3bc681)
 
 ## Item Details
-##### <a name='f4e94980c6a03b08221fd46e19c421cce226086d11'></a> Source: [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr/blob/8fd779bcc4d41b6e67d0fa31aa0f37c4ea2b410a/MIMDocs/DeployUse/install-mim-sync-ad-service.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\install-mim-sync-ad-service.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/12180170f5fc60bf1606d17077b52d09841a9b7a/MIMDocs/DeployUse/install-mim-sync-ad-service.md)
-* Handoff File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/04f1876ce8d18cf525fdf9a909e3128ef48bb891/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.pt-br.xlf)
-* Handoff Datetime: 2016-06-03 18:45:09
-* Handoff Reason: Include
-* Archive File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/83537109ab7b7f2ebbbdfc0ea63faa1af2e9e0d9/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/archive/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.pt-br.xlf)
-* Archive Datetime: 2016-06-09 00:20:51
-* Handback File: [install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/660687d30034450cdc50325906cedfe261b13b17/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/install-mim-sync-ad-service.2a07d4547ca2bf0ca43e7ed04fa3bf20de000a33.pt-br.xlf)
-* Handback Datetime: 2016-06-16 15:54:52
-* [Back to Top](#report-top)
-
-##### <a name='285205578983eca4189da7ac0fdf0a9ee52b3bc681'></a> Source: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr/blob/d333b77ae65be2ce2082a18c7e352a99195c2773/MIMDocs/index.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\index.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/12180170f5fc60bf1606d17077b52d09841a9b7a/MIMDocs/index.md)
-* Handoff File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/5359fb12b2ad94d9c357ea327ce4d13c86590345/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf)
-* Handoff Datetime: 2016-06-03 21:45:13
-* Handoff Reason: Include
-* Archive File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/83537109ab7b7f2ebbbdfc0ea63faa1af2e9e0d9/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/archive/index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf)
-* Archive Datetime: 2016-06-09 00:20:51
-* Handback File: [index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/660687d30034450cdc50325906cedfe261b13b17/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/index.a54b2324d63a6d513b6900195023b9a8089553b4.pt-br.xlf)
-* Handback Datetime: 2016-06-16 15:54:52
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
