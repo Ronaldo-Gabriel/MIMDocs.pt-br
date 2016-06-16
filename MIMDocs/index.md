@@ -21,12 +21,15 @@ ms.assetid: 90d66a75-a7ec-4fa1-911c-cce683908838
     <section id="hero-content">
       <h1>Documentação do Microsoft Identity Manager</h1>
       <h2>O MIM (Microsoft Identity Manager) fornece recursos locais de gerenciamento de acessos e identidades, inclusive sincronização de identidades, impedimento de roubo de identidade e muito mais</h2>
-      <h3>Ainda não conhece o MIM? <a href="http://www.microsoft.com/en-us/server-cloud/products/microsoft-identity-manager/" target="\_blank">Visite a página do produto &rarr;</a></h3>
+      <h3>Ainda não conhece o MIM? <a href="http://www.microsoft.com/en-us/server-cloud/products/microsoft-identity-manager/" target="\_blank">Visite a página do produto &rarr;</a></h3>     
     </section>
     <aside class="alert section-border">
       <p>Pronto para pôr a mão na massa?</p>
       <ol class="action-list">
-        <li><a href="https://www.microsoft.com/en-us/evalcenter/evaluate-microsoft-identity-manager-2016" target="\_blank" class="button-bordered button-translucent">Experimente agora mesmo</a></li>
+        <li><a href="https://www.microsoft.com/evalcenter/evaluate-microsoft-identity-manager-2016" target="\_blank" class="button-bordered button-translucent">Comece uma avaliação gratuita</a></li>
+      </ol>
+      <ol class="action-list">
+        <li><a href="http://connect.microsoft.com/site1164/Downloads/DownloadDetails.aspx?DownloadID=61395" target="\_blank" class="button-bordered button-translucent">Visualizar recursos futuros</a></li>
       </ol>
     </aside>
     <section id="featured" class="container">
@@ -137,6 +140,6 @@ ms.assetid: 90d66a75-a7ec-4fa1-911c-cce683908838
 </article>
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO1-->
 
 

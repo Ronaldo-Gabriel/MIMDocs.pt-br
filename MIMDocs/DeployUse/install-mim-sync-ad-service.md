@@ -27,8 +27,7 @@ ms.suite: ems
 
 # Instalação do MIM 2016: Sincronização do Active Directory e do Serviço do MIM
 
->[!div class="step-by-step"]
-[« Serviço e Portal do MIM](install-mim-service-portal.md)
+>[!div class="step-by-step"] [« Serviço e Portal do MIM](install-mim-service-portal.md)
 
 > [!NOTE]
 > Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
@@ -43,8 +42,7 @@ O MIM MA (Agente de gerenciamento) é um conector para a sincronização do MIM 
 
 Quando você configura um MIM MA, precisa especificar uma conta de usuário. Este documento usa **MIMMA** como nome para essa conta.
 
-> [!NOTE]
-> A conta usada para o MIM MA deve ser a mesma especificada durante a instalação do serviço do MIM.
+> [!NOTE] A conta usada para o agente de gerenciamento do MIM deve ser a mesma conta que foi especificada durante a instalação do Serviço do MIM.
 
 ###Para criar o MIM MA
 
@@ -99,69 +97,69 @@ Quando você configura um MIM MA, precisa especificar uma conta de usuário. Est
 
 9.  Na página **Configurar o Fluxo de Atributos**, aplique os seguintes mapeamentos de fluxo de atributo e, em seguida, clique em **Avançar**
 
-    | **Direção do fluxo** | **Atributo de fonte de dados** | **Atributo metaverso** |
+    | **Atributo de fonte de dados** | **Direção do fluxo** | **Atributo metaverso** |
     |-|-|-|
-    |Importar|Importar|accountName|
-    |Importar|Importar|empresa|
-    |Importar|Importar|displayName|
-    |Importar|Importar|employeeID|
-    |Importar|Importar|employeeTipo|
-    |Importar|Importar|firstName|
-    |Importar|Importar|lastName|
-    |Importar|Importar|Manager|
-    |Importar|Importar|objectSid|
-    |Exportar|Exportar|accountName|
-    |Exportar|Exportar|empresa|
-    |Exportar|Exportar|displayName|
-    |Exportar|Exportar|domain|
-    |Exportar|Exportar|employeeID|
-    |Exportar|Exportar|employeeTipo|
-    |Exportar|Exportar|firstName|
-    |Exportar|Exportar|lastName|
-    |Exportar|Exportar|gerenciador|
-    |Exportar|Exportar|objectSid|
+    | AccountName | Exportar | accountName |
+    | DisplayName | Exportar | displayName |
+    | Domain | Exportar | domain |
+    | EmployeeID | Exportar | employeeID |
+    | EmployeeTipo | Exportar | employeeTipo |
+    | Email | Exportar | mail |
+    | Primeiro nome | Exportar | firstName |
+    | Sobrenome | Exportar | lastName |
+    | ObjectSID | Exportar | objectSid |
 
 10.  Selecione **Pessoa** como o tipo de objeto de fonte de dados.
 
-    -   Select **Person** as the Metaverse object type.
+    -   Selecione **Pessoa** como o tipo de objeto de Metaverso.
 
-    -   Select **Direct** as the Mapping Type.
+    -   Selecione **Direto** como o Tipo de Mapeamento.
 
-    -   For each row in the previous table, complete the following steps:
+    -   Para cada linha na tabela anterior, conclua as seguintes etapas:
 
-        -   Select the **Flow direction** shown for that row in the table.
+        -   Selecione a **Direção do fluxo** exibida para aquela linha na tabela.
 
-        -   Select the **Data source attribute** shown for that row in the table.
+        -   Selecione o **Atributo de Fonte de dados** exibido para aquela linha na tabela.
 
-        -   Select the **Metaverse attribute** shown for that row in the table.
+        -   Selecione o **Atributo de metaverso** exibido para aquela linha na tabela.
 
-        -   To apply the flow mapping, click **New**.
+        -   Para aplicar o mapeamento de fluxo, clique em **Novo**.
 
-    -   Select **Group** as the data source type and as the metaverse object type.
+    -   Selecione o **Grupo** como o tipo de fonte de dados e o tipo de objeto do metaverso.
 
-    -   Select **Direct** as the Mapping Type.
+    -   Selecione **Direto** como o Tipo de Mapeamento.
 
-    -   For each row in the following table, complete these steps:
+    -   Para cada linha na tabela a seguir, conclua as seguintes etapas:
 
-        -   Select the **Flow direction** shown for that row in the table.
+        -   Selecione a **Direção do fluxo** exibida para aquela linha na tabela.
 
-        -   Select the **Data source attribute** shown for that row in the table.
+        -   Selecione o **Atributo de Fonte de dados** exibido para aquela linha na tabela.
 
-        -   Select the **Metaverse attribute** shown for that row in the table.
+        -   Selecione o **Atributo de metaverso** exibido para aquela linha na tabela.
 
-        -   To apply the flow mapping, click **New**.
+        -   Para aplicar o mapeamento de fluxo, clique em **Novo**.
 
-    | Flow Direction | Data Source Attribute | Metaverse Attribute |
+    | **Atributo de fonte de dados** | **Direção do fluxo** | **Atributo metaverso** |
     |-|-|-|
-    | Export | AccountName | accountName |
-    | Export | DisplayName | displayName |
-    | Export | Domain | domain |
-    | Export | Scope | scope |
-    | Export | Type | type |
-    | Export | Member | member |
-    | Export | MembershipLocked | membershipLocked |
-    | Export | MembershipAddWorkflow | membershipAddWorkflow |
-    | Export | Manager | manager |
+    | AccountName | Exportar | accountName |
+    | DisplayName | Exportar | displayName |
+    | Domain | Exportar | domain |
+    | Email | Exportar | mail |
+    | MailNickName | Exportar | mailNickName |
+    | Membro | Exportar | membro |
+    | ObjectSID | Exportar | objectSid |
+    | Escopo | Exportar | scope |
+    | Tipo | Exportar | tipo |
+    | MembroshipAddWorkflow | Exportar | membershipAddWorkflow |
+    | MembroshipLocked | Exportar | membershipLocked |
+    | DisplayName | Importar | displayName |
+    | Escopo | Importar | scope |
+    | Tipo | Importar | tipo |
+    | Membro | Importar | membro |
+    | AccountName | Importar | accountName |
+    | DisplayedOwner | Importar | displayedOwner |
+    | MailNickName | Importar | mailNickName |
+
 
 11.  Na página **Configurar Desprovisionamento**, clique em **Avançar**
 
@@ -181,7 +179,7 @@ O agente de gerenciamento do Active Directory é um conector para serviços de d
 
     - Nome da floresta: contoso.local
     - Nome de usuário: administrador
-    - Senha: <a senha da conta>
+    - Senha: &lt;a senha da conta&gt;
     - Domínio: contoso
 
 4. Na página **Configurar Partições de Diretório**, forneça as seguintes configurações e, em seguida, clique em **Avançar**:
@@ -439,10 +437,9 @@ Siga estas etapas para executar cada um dos três perfis de execução.
     - Selecione o perfil de execução que deseja executar na lista **Perfis de execução**.
     - Clique em **OK** para iniciar o perfil de execução.
 
->[!div class="step-by-step"]
-[« Serviço e Portal do MIM](install-mim-service-portal.md)
+>[!div class="step-by-step"] [« Serviço e Portal do MIM](install-mim-service-portal.md)
 
 
-<!--HONumber=Apr16_HO3-->
+<!--HONumber=Jun16_HO1-->
 
 
