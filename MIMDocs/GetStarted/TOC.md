@@ -1,6 +1,6 @@
 #Amostra
-## [Amostra](Sample.md)
+## Amostra
 
-<!--HONumber=Mar16_HO1-->
+<!--HONumber=Jun16_HO5-->
 
 
