@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Instalação do MIM 2016 & #58; Serviço e Portal do MIM | Microsoft Identity Manager
-description: Obtenha as etapas para configurar e instalar o Serviço e o Portal do MIM para o Microsoft Identity Manager 2016
-keywords:
+title: "Instalação do MIM 2016 &"
+description: "Obtenha as etapas para configurar e instalar o Serviço e o Portal do MIM para o Microsoft Identity Manager 2016"
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: b0b39631-66df-4c5f-80c9-a1774346f816
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c023d147d0fcc1525fefbe866c952e217f7bee6b
+ms.openlocfilehash: eb2af412d9638035de591197fa191e990ade0ca1
+
 
 ---
 
@@ -29,7 +23,7 @@ ms.suite: ems
 
 >[!div class="step-by-step"]
 [« Serviço de Sincronização do MIM](install-mim-sync.md)
-[Sincronização dos bancos de dados »](install-mim-sync-ad-service.md)
+[Sincronizar bancos de dados »](install-mim-sync-ad-service.md)
 
 > [!NOTE]
 > Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
@@ -154,9 +148,10 @@ Após a conclusão da instalação, verifique se o Portal do MIM está ativo.
 
 >[!div class="step-by-step"]  
 [« Serviço de Sincronização do MIM](install-mim-sync.md)
-[Sincronização dos bancos de dados »](install-mim-sync-ad-service.md)
+[Sincronizar bancos de dados »](install-mim-sync-ad-service.md)
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

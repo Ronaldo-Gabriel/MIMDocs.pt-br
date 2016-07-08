@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Registrar cartões inteligentes para não administradores | Microsoft Identity Manager
-description: Saiba como registrar cartões inteligentes para usuários sem acesso de administrador aos respectivos computadores para que eles possam usar o Gerenciador de Certificados.
-keywords:
+title: "Registrar cartões inteligentes para não administradores | Microsoft Identity Manager"
+description: "Saiba como registrar cartões inteligentes para usuários sem acesso de administrador aos respectivos computadores para que eles possam usar o Gerenciador de Certificados."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: bfabc562-a2f0-4cff-ac31-36927f41e102
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 875ed6b96929822ac166a4a262cc8547a4ea3b2a
+ms.openlocfilehash: 50c0edd60abfa6550cb5a873d32a842e8c099811
+
 
 ---
 
@@ -48,7 +42,7 @@ Se um usuário não for um administrador local no seu computador, ele não poder
 
     Edite o arquivo custom.data e modifique o seguinte:
 
-    1.  No elemento &lt;NonAdmin&gt;, altere o valor do atributo Value para "Verdadeiro"
+    1.  No elemento &lt;NonAdmin&gt;, altere o valor do atributo Value para “True”
 
     2.  Salve o arquivo e saia do editor
 
@@ -56,7 +50,7 @@ Se um usuário não for um administrador local no seu computador, ele não poder
 
     4.  Edite o arquivo chamado AppxManifest.xml
 
-    5.  No elemento <Identity>, modifique o valor do atributo Publisher para a entidade do certificado de autenticação, por exemplo "CN=ABCD"
+    5.  No elemento &lt;Identity&gt;, modifique o valor do atributo Publisher para a entidade do certificado de autenticação, por ex.: "CN=ABCD"
 
         O assunto aqui deve ser o mesmo que o assunto no certificado de autenticação que você está usando para assinar o aplicativo.
 
@@ -76,7 +70,7 @@ Se um usuário não for um administrador local no seu computador, ele não poder
 
     1.  Faça logon no portal do CM como um usuário com privilégios administrativos.
 
-    2.  Acesse **Administração** &gt; **Gerenciar modelos de perfil** e certifique-se de que a caixa esteja marcada ao lado do modelo de perfil que você criou, então clique em Copiar um modelo de perfil selecionado.
+    2.  Vá para **Administração** &gt; **Gerenciar modelos de perfil** e verifique se a caixa está marcada ao lado do modelo de perfil criado. Em seguida, clique em Copiar um modelo de perfil selecionado.
 
     3.  Digite o nome do modelo de perfil, adicione "nonAdmin" e clique em **OK**.
 
@@ -101,6 +95,7 @@ Se um usuário não for um administrador local no seu computador, ele não poder
 8.  **Iniciar o aplicativo CM e registrar para um cartão inteligente virtual**
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
