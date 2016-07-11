@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-self-service-password-reset.md) | InSyncHandedBackSuccess | [Details](#3a4350e54383dc1098c778090bb29b435082045f75)
 
 ## Item Details
-##### <a name='3a4350e54383dc1098c778090bb29b435082045f75'></a> Source: [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr/blob/f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda/MIMDocs/DeployUse/working-with-self-service-password-reset.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\working-with-self-service-password-reset.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/5b08668c8669baec1e9a228291da1b7a244f2958/MIMDocs/DeployUse/working-with-self-service-password-reset.md)
-* Handoff File: [working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/479556b43b27b37bb5a07602cac5d2f8834be932/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf)
-* Handoff Datetime: 2016-06-27 09:08:54
-* Handoff Reason: Include
-* Archive File: [working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/5c07611fdaad6e990e76ea32a5f546c0cccb0280/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/archive/working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf)
-* Archive Datetime: 2016-07-01 23:26:36
-* Handback File: [working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/aaaec1e0236a21bef403b16285052de81d3a10e9/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf)
-* Handback Datetime: 2016-07-11 08:17:02
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
