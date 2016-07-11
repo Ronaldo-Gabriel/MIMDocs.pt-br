@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "93600a1cd5652d947bfaae4d4cfecfe074fb016f",
-  "LastTranslatedCommit": "a198f2269854b45f9f75cca79b89db9b9d31f1e3",
+  "LastTranslatedCommit": "5b08668c8669baec1e9a228291da1b7a244f2958",
   "Items": {
     "c1e15c9548e46cbbff7810e63478074ceeb06152": {
       "FileHash": "c1e15c9548e46cbbff7810e63478074ceeb06152",
@@ -13310,14 +13310,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": "8c86220df13ab58c22bc0a2d7b114b5b38d004d1",
+      "TargetFileCommit": "5b08668c8669baec1e9a228291da1b7a244f2958",
       "TargetFilePath": "MIMDocs\\DeployUse\\working-with-self-service-password-reset.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\MIMDocs-pr.pt-br\\master\\working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf",
-      "HandbackFileCommit": "8e52b96da2a0ff78d54adf5d822503d80c3d2dba",
-      "HandbackDateTime": "2016-05-03T16:57:52.7350151Z",
+      "HandbackFileCommit": "aaaec1e0236a21bef403b16285052de81d3a10e9",
+      "HandbackDateTime": "2016-07-11T08:17:02.8232765Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "2016-05-03T16:57:52.7350151Z",
+      "UpdatedDateTime": "2016-07-11T08:17:02.8232765Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\MIMDocs-pr.pt-br\\master\\archive\\working-with-self-service-password-reset.bcd57dd12a02054bccbba77422a81b03c5e3b624.pt-br.xlf",
       "ArchiveFileCommit": "5c07611fdaad6e990e76ea32a5f546c0cccb0280",
       "ArchiveFileDateTime": "2016-07-01T23:26:36.4138459Z",
