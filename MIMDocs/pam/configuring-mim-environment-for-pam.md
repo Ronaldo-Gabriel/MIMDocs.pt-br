@@ -37,10 +37,11 @@ Essas etapas são delineadas para que você possa começar do zero e criar um am
 
 7.  Demonstre a solicitação, o recebimento e o uso de acesso com privilégios elevados a um recurso protegido.
 
->[!div class="step-by-step"] [Iniciar »](step-1-prepare-corp-domain.md)
+>[!div class="step-by-step"]
+[[!div class="step-by-step"] [Iniciar »](step-1-prepare-corp-domain.md)](step-1-prepare-corp-domain.md)
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
