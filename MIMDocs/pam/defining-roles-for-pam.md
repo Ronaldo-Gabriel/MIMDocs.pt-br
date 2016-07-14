@@ -202,6 +202,6 @@ As funções de gerenciamento de computador e usuário não administrativo podem
 
 
 
-<!--HONumber=Jun16_HO3-->
+<!--HONumber=Jul16_HO2-->
 
 
