@@ -1,55 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 3
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [MIMDocs\DeployUse\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/8d151e15ea35fbaf14e8b55697f3fad9858d2aed/MIMDocs/DeployUse/TOC.md) | InSyncHandedBackSuccess | [Details](#15f742d950ce73c665c5c7c1644a23153d6aa36371)
- [MIMDocs\toc.md](https://github.com/Microsoft/MIMDocs-pr/blob/3b6b7df0a2836f23795c5bc6d5af6c561d361331/MIMDocs/toc.md) | OutofSyncHandedBackSuccess | [Details](#84a2f5e4796c1d7e0a407cfc4a336de1bf65c5f3288)
- [MIMDocs\Understand\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/8d151e15ea35fbaf14e8b55697f3fad9858d2aed/MIMDocs/Understand/TOC.md) | InSyncHandedBackSuccess | [Details](#0a32b3c5b574f121bcd34d97a9430d0dfd553ca8301)
 
 ## Item Details
-##### <a name='15f742d950ce73c665c5c7c1644a23153d6aa36371'></a> Source: [MIMDocs\DeployUse\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/8d151e15ea35fbaf14e8b55697f3fad9858d2aed/MIMDocs/DeployUse/TOC.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\DeployUse\TOC.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/0b6522aed01de59e2faa3e671dcea86b95869ea8/MIMDocs/DeployUse/TOC.md)
-* Handoff File: [TOC.113860bc4c6a12249fc3a8d5e5f59fce2f8ca102.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/f549559120389f0dbf31e63e3b5e0392fe1227ae/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/TOC.113860bc4c6a12249fc3a8d5e5f59fce2f8ca102.pt-br.xlf)
-* Handoff Datetime: 2016-07-11 08:49:53
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [TOC.113860bc4c6a12249fc3a8d5e5f59fce2f8ca102.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/29c9f4f5ad07086c7deb2c91f8a2f4066b1ace6c/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/TOC.113860bc4c6a12249fc3a8d5e5f59fce2f8ca102.pt-br.xlf)
-* Handback Datetime: 2016-07-15 01:04:41
-* [Back to Top](#report-top)
-
-##### <a name='84a2f5e4796c1d7e0a407cfc4a336de1bf65c5f3288'></a> Source: [MIMDocs\toc.md](https://github.com/Microsoft/MIMDocs-pr/blob/3b6b7df0a2836f23795c5bc6d5af6c561d361331/MIMDocs/toc.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
-* Handoff File: [toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/06a9a94bb3cc31f01c7955b3fc87916389da78d6/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.pt-br.xlf)
-* Handoff Datetime: 2016-07-14 16:55:26
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [MIMDocs\toc.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/0b6522aed01de59e2faa3e671dcea86b95869ea8/MIMDocs/toc.md)
-* Current Handback File: [toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/29c9f4f5ad07086c7deb2c91f8a2f4066b1ace6c/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/toc.6a59cd1e48b1263518d5152d0f44ced431e431a3.pt-br.xlf)
-* Current Handback Datetime: 2016-07-15 01:04:41
-* [Back to Top](#report-top)
-
-##### <a name='0a32b3c5b574f121bcd34d97a9430d0dfd553ca8301'></a> Source: [MIMDocs\Understand\TOC.md](https://github.com/Microsoft/MIMDocs-pr/blob/8d151e15ea35fbaf14e8b55697f3fad9858d2aed/MIMDocs/Understand/TOC.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [MIMDocs\Understand\TOC.md](https://github.com/Microsoft/MIMDocs-pr.pt-br/blob/0b6522aed01de59e2faa3e671dcea86b95869ea8/MIMDocs/Understand/TOC.md)
-* Handoff File: [TOC.cf3c9303083fb125b50bea7db798a930a73afc51.pt-br.xlf](https://github.com/Microsoft/EM.handoff/blob/f549559120389f0dbf31e63e3b5e0392fe1227ae/ol-handoff/Microsoft/MIMDocs-pr.pt-br/master/TOC.cf3c9303083fb125b50bea7db798a930a73afc51.pt-br.xlf)
-* Handoff Datetime: 2016-07-11 08:49:53
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [TOC.cf3c9303083fb125b50bea7db798a930a73afc51.pt-br.xlf](https://github.com/Microsoft/EM.handback/blob/29c9f4f5ad07086c7deb2c91f8a2f4066b1ace6c/ol-handback/Microsoft/MIMDocs-pr.pt-br/master/TOC.cf3c9303083fb125b50bea7db798a930a73afc51.pt-br.xlf)
-* Handback Datetime: 2016-07-15 01:04:41
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
