@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Configuração de um servidor de gerenciamento de identidade& #58; Windows Server 2012 R2 | Microsoft Identity Manager
-description: Obtenha as etapas e os requisitos mínimos para preparar o Windows Server 2012 RS para trabalhar com o MIM 2016.
-keywords:
+title: "Configuração de um servidor de gerenciamento de identidade&"
+description: "Obtenha as etapas e os requisitos mínimos para preparar o Windows Server 2012 RS para trabalhar com o MIM 2016."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,23 +10,19 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 51507d0a-2aeb-4cfd-a642-7c71e666d6cd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: af9f7f75f19bb29f2e29577c787252f6b7fabb7d
+ms.openlocfilehash: cd4ac84af4e5416512cf546a5d23b342ebe13c39
+
 
 ---
 
 # Configure um servidor de gerenciamento de identidade: Windows Server 2012 R2
 
 >[!div class="step-by-step"]
-[«Preparação de um domínio](preparing-domain.md)
+[« Preparando um domínio](preparing-domain.md)
 [SQL Server 2014 »](prepare-server-sql2014.md)
 
 > [!NOTE]
@@ -61,7 +55,7 @@ Comece com um computador Windows Server 2012 R2 com um mínimo de 8 GB de RAM. A
 
     ![Imagem de recursos do PowerShell](media/MIM-DeployWS2.png)
 
-7. No PowerShell, digite os comandos a seguir. Observe que talvez seja necessário especificar um local diferente para os arquivos de origem para os recursos do **.NET Framework** 3.5. Normalmente, esses recursos não estão presentes no momento da instalação do Windows Server, mas estão disponíveis na pasta (SxS) lado a lado na pasta de origens do disco de instalação do SO, por exemplo, “*d:\Sources\SxS\*”.
+7. No PowerShell, digite os comandos a seguir. Observe que talvez seja necessário especificar um local diferente para os arquivos de origem para os recursos do **.NET Framework** 3.5. Normalmente, esses recursos não estão presentes no momento da instalação do Windows Server, mas estão disponíveis na pasta SxS (lado a lado) na pasta de origens do disco de instalação do sistema operacional, por exemplo, “*d:\Sources\SxS\*”.
 
     ```
     import-module ServerManager
@@ -112,10 +106,11 @@ Configure a política de segurança do servidor para permitir que as contas cria
     ```
 
 >[!div class="step-by-step"]  
-[«Preparação de um domínio](preparing-domain.md)
+[« Preparando um domínio](preparing-domain.md)
 [SQL Server 2014 »](prepare-server-sql2014.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

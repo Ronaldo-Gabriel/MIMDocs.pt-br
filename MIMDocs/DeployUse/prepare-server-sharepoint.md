@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Configuração de um servidor de gerenciamento de identidade& #58; SharePoint | Microsoft Identity Manager
-description: Instale e configure o SharePoint Foundation para que ele possa hospedar a página do Portal do MIM.
-keywords:
+title: "Configuração de um servidor de gerenciamento de identidade&"
+description: "Instale e configure o SharePoint Foundation para que ele possa hospedar a página do Portal do MIM."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: c01487f2-3de6-4fc4-8c3a-7d62f7c2496c
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
+ms.openlocfilehash: b144f28b41eb8e02afa44495c0019ccc81022005
+
 
 ---
 
@@ -98,7 +92,8 @@ Siga as etapas alinhadas no **Assistente de Configuração de Produtos do ShareP
     -ApplicationPoolAccount $dbManagedAccount -AuthenticationMethod "Kerberos" -Port 82 -URL http://corpidm.contoso.local
     ```
 
-    > [!NOTE] Uma mensagem de aviso será exibida informando que o método de autenticação Clássico do Windows está sendo usado e pode ser que demore para que o comando final seja retornado. Quando concluído, a saída indicará a URL do novo portal. Mantenha a janela **Shell de Gerenciamento do SharePoint 2013** aberta para referência posterior.
+    > [!NOTE] 
+    > Uma mensagem de aviso será exibida informando que o método de autenticação Clássico do Windows está sendo usado e pode ser que demore para que o comando final seja retornado. Quando concluído, a saída indicará a URL do novo portal. Mantenha a janela **Shell de Gerenciamento do SharePoint 2013** aberta para referência posterior.
 
 2. Inicie o Shell de Gerenciamento do SharePoint 2013 e execute o script a seguir do PowerShell para criar um **Conjunto de Sites do SharePoint** associado ao aplicativo Web.
 
@@ -112,7 +107,8 @@ Siga as etapas alinhadas no **Assistente de Configuração de Produtos do ShareP
   $s.CompatibilityLevel
   ```
 
-  > [!NOTE] Verifique se o resultado da variável *CompatibilityLevel* é "14". Se o resultado for "15", o conjunto de sites não foi criado para a versão da experiência 2010; exclua o conjunto de sites e recrie-o.
+  > [!NOTE] 
+  > Verifique se o resultado da variável *CompatibilityLevel* é "14". Se o resultado for "15", o conjunto de sites não foi criado para a versão da experiência 2010; exclua o conjunto de sites e recrie-o.
 
 3. Desabilite o **viewstate do lado do servidor do SharePoint** e a tarefa do SharePoint "Trabalho de Análise de Integridade (Por Hora, Timer do Microsoft SharePoint Foundation, Todos os Servidores)", executando os seguintes comandos do PowerShell no **Shell de Gerenciamento do SharePoint 2013**:
 
@@ -140,6 +136,7 @@ Siga as etapas alinhadas no **Assistente de Configuração de Produtos do ShareP
 [Exchange Server »](prepare-server-exchange.md)
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO5-->
 
 

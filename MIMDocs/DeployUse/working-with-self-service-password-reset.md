@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Como trabalhar com redefinição de senha de autoatendimento | Microsoft Identity Manager
-description: Veja as novidades de redefinição de senha de autoatendimento no MIM 2016, incluindo como a SSPR funciona com autenticação multifator. 
-keywords:
+title: "Como trabalhar com redefinição de senha de autoatendimento | Microsoft Identity Manager"
+description: "Veja as novidades de redefinição de senha de autoatendimento no MIM 2016, incluindo como a SSPR funciona com autenticação multifator."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 94a74f1c-2192-4748-9a25-62a526295338
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: 3a4350e54383dc1098c778090bb29b435082045f
+
 
 ---
 
@@ -50,7 +44,7 @@ Esta seção pressupõe que você tenha baixado e concluído a implantação do 
 
 -   O Serviço de Sincronização do MIM 2016 é instalado e executado em um servidor ingressado no domínio para o domínio do AD
 
--   O Serviço e Portal do MIM 2016, incluindo o Portal de registro do SSPR e o Portal de redefinição do SSPR, precisam estar instalados e em execução em um servidor (podem estar posicionados com Sincronização)
+-   O Serviço e o Portal do MIM 2016, incluindo o Portal de Registro do SSPR e o Portal de Redefinição do SSPR, são instalados e executados em um servidor (podem estar colocalizados com Sincronização)
 
 -   A Sincronização do MIM deve ser configurada para sincronização de identidades do AD-MIM, incluindo:
 
@@ -60,7 +54,7 @@ Esta seção pressupõe que você tenha baixado e concluído a implantação do 
 
     -   Configurando as regras de sincronização no Portal do MIM para permitir a sincronização de dados de usuário e facilitar a atividades baseadas em sincronização no Serviço do MIM.
 
--   Os complementos e extensões do MIM 2016, incluindo o cliente integrado de Logon do Windows do SSPR, devem ser implantados no servidor ou em um computador cliente separado.
+-   Os Suplementos e as Extensões do MIM 2016, incluindo o cliente integrado de Logon do Windows do SSPR, são implantados no servidor ou em um computador cliente separado.
 
 ## Preparação do MIM para trabalhar com à autenticação multifator
 Configure a Sincronização do MIM para dar suporte para redefinição de senha e funcionalidade de desbloqueio de conta. Para obter mais informações, consulte [Instalação dos complementos e extensões FIM](https://technet.microsoft.com/library/ff512688%28v=ws.10%29.aspx), [Instalação do FIM SSPR](https://technet.microsoft.com/library/hh322891%28v=ws.10%29.aspx), [Portões de autenticação de SSPR](https://technet.microsoft.com/library/jj134288%28v=ws.10%29.aspx) e [Guia de laboratório de teste de SSPR](https://technet.microsoft.com/library/hh826057%28v=ws.10%29.aspx)
@@ -73,7 +67,7 @@ Na próxima seção, você configurará o provedor do Azure MFA no Active Direct
 
 2.  No canto inferior esquerdo, clique em **Novo**.
 
-3.  Clique em **Serviços de Aplicativos &gt; Active Directory &gt; Provedor de Autenticação Multifator &gt; Criação Rápida**.
+3.  Clique em **Serviços de Aplicativos &gt; Active Directory &gt; Provedor de Multi-Factor Auth &gt; Criação Rápida**.
 
 ![Imagem de MFA de criação rápida no portal do Azure](media/MIM-SSPR-Azureportal.png)
 
@@ -211,6 +205,7 @@ Ao instalar os Suplementos e Extensões do MIM em um computador ingressado no do
     ![Imagem de redefinição de senha do assistente de logon do MIM](media/MIM-SSPR-PR1.JPG)
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
