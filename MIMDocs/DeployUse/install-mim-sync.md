@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Instalação do MIM 2016 & #58; Serviço de Sincronização do MIM | Microsoft Identity Manager
-description: Comece a usar os componentes do MIM 2016 instalando e configurando o Serviço de Sincronização.
-keywords:
+title: "Instalação do MIM 2016 &"
+description: "Comece a usar os componentes do MIM 2016 instalando e configurando o Serviço de Sincronização."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 2585e9c5-ce34-46c7-bdcf-8c08773901dc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c023d147d0fcc1525fefbe866c952e217f7bee6b
+ms.openlocfilehash: 8a99b3a291d2b145f453732a72244c43f9c535d6
+
 
 ---
 
@@ -29,7 +23,7 @@ ms.suite: ems
 
 >[!div class="step-by-step"]
 [« Exchange Server](prepare-server-exchange.md)
-[Serviço e Portal do MIM »](install-mim-service-portal.md)
+[Serviço MIM e Portal »](install-mim-service-portal.md)
 
 > [!NOTE]
 > Este passo a passo usa nomes e valores de exemplo de uma empresa chamada Contoso. Substitua-os pelos seus próprios valores. Por exemplo:
@@ -109,9 +103,10 @@ Para instalar os componentes do Microsoft Identity Manager 2016, primeiramente c
 
 >[!div class="step-by-step"]  
 [« Exchange Server](prepare-server-exchange.md)
-[Serviço e Portal do MIM »](install-mim-service-portal.md)
+[Serviço MIM e Portal »](install-mim-service-portal.md)
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

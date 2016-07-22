@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Como trabalhar com o relatório híbrido do Identity Manager | Microsoft Identity Manager
-description: Saiba como combinar dados locais e na nuvem em relatórios de híbridos no Azure e como gerenciar e exibir esses relatórios.
-keywords:
+title: "Como trabalhar com o relatório híbrido do Identity Manager | Microsoft Identity Manager"
+description: "Saiba como combinar dados locais e na nuvem em relatórios de híbridos no Azure e como gerenciar e exibir esses relatórios."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 68df2817-2040-407d-b6d2-f46b9a9a3dbb
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: e2d0bd6120628d4fd2a14718fc205cde976c7785
+
 
 ---
 
@@ -100,14 +94,15 @@ Depois que o agente de relatório é instalado, os dados de atividade do Microso
 Se você quiser parar de carregar dados de relatório do Microsoft Identity Manager no Azure Active Directory, desinstale o agente de relatórios híbridos. Use a ferramenta **Adicionar ou Remover Programas** do Windows para desinstalar o relatório híbrido do Microsoft Identity Manager.
 
 ## Eventos do Windows usados pelo relatório híbrido
-Eventos gerados pelo Microsoft Identity Manager são registrados no log de eventos do Windows e ficam visíveis no Visualizador de Eventos em: Logs de Aplicativos e Serviços-&gt; **Log de solicitação do Identity Manager**. Cada solicitação do MIM é exportada como um evento no log de eventos do Windows na estrutura JSON. Isso pode ser exportado para o SIEM.
+Eventos gerados pelo Microsoft Identity Manager são registrados no Log de Eventos do Windows e ficam visíveis no Visualizador de Eventos em: logs de Aplicativos e Serviços-&gt; **Log de Solicitação do Identity Manager**. Cada solicitação do MIM é exportada como um evento no log de eventos do Windows na estrutura JSON. Isso pode ser exportado para o SIEM.
 
 |Tipo de evento|ID|Detalhes do evento|
 |--------------|------|-----------------|
 |Informações do|4121|Dados de evento do MIM que incluem todos os dados da solicitação.|
-|Informações do|4137|Extensão 4121 de evento do MIM, no caso de haver dados demais para um único evento. O cabeçalho neste evento está na seguinte forma: `"Request: <GUID> , message <xxx> out of <xxx>`|
+|Informações do|4137|Extensão 4121 de evento do MIM, no caso de haver dados demais para um único evento. O cabeçalho deste evento está no seguinte formato: `"Request: <GUID> , message <xxx> out of <xxx>`|
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

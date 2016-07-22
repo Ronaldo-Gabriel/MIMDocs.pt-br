@@ -1,9 +1,7 @@
 ---
-# required metadata
-
 title: Como trabalhar com o Gerenciador de certificados do MIM | Microsoft Identity Manager
-description: Saiba como implantar o aplicativo Gerenciador de certificados para permitir que os usuários gerenciem seus próprios direitos de acesso. 
-keywords:
+description: "Saiba como implantar o aplicativo Gerenciador de certificados para permitir que os usuários gerenciem seus próprios direitos de acesso."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 66060045-d0be-4874-914b-5926fd924ede
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: 3e0e6cea0b268836bb6347e81694deec93320ce3
+
 
 ---
 
@@ -43,7 +37,7 @@ Você cria um modelo de certificado para o aplicativo CM da mesma maneira que fa
 
 2.  Abra o MMC.
 
-3.  Clique em **Arquivo &gt; Adicionar/Remover Snap-in**.;
+3.  Clique em **Arquivo &gt; Adicionar/Remover Snap-in**.
 
 4.  Na lista de snap-ins disponíveis, clique duas vezes em **Modelos de Certificado** e, em seguida, clique em **Adicionar**.
 
@@ -71,7 +65,7 @@ Você cria um modelo de certificado para o aplicativo CM da mesma maneira que fa
 
 14. No painel esquerdo do MMC, expanda **Autoridade de Certificação (Local)** e, em seguida, expanda a CA dentro da lista Autoridade de Certificação.
 
-15. Clique com o botão direito do mouse em **Modelos de Certificado**, clique em **Novo &gt; Modelo de Certificado** a Ser Emitido.
+15. Clique com o botão direito do mouse em **Modelos de Certificado** e clique em **Novo &gt; Modelo de Certificado** a Ser Emitido.
 
 16. Na lista, selecione o novo modelo criado e clique em **OK**.
 
@@ -80,7 +74,7 @@ Certifique-se de quando criar um modelo de perfil para defini-lo para criar/dest
 
 1.  Faça logon no portal do CM como um usuário com privilégios administrativos.
 
-2.  Acesse Administração &gt; Gerenciar Modelos de perfil e certifique-se de que a caixa está marcada ao lado do Modelo de Perfil de Logon do Cartão Inteligente de Exemplo do MIM CM e clique em Copiar um modelo de perfil selecionado.
+2.  Vá para Administração &gt; Gerenciar Modelos de Perfil e verifique se a caixa está marcada ao lado do Modelo de Perfil de Logon do Cartão Inteligente de Exemplo do MIM CM e clique em Copiar um modelo de perfil selecionado.
 
 3.  Digite o nome do modelo de perfil e clique em **OK**.
 
@@ -132,7 +126,7 @@ Certifique-se de quando criar um modelo de perfil para defini-lo para criar/dest
 
 7.  Você precisa obter um certificado de assinatura antes de iniciar esta seção. Consulte a seguir, Habilitando a renovação do cartão inteligente para não administradores no Certificate Manager do MIM 2016, etapa 1.
 
-8.  No elemento &lt;Identity&gt;, modifique o valor do atributo Publisher para ficar idêntico ao assunto listado no seu certificado de autenticação, por exemplo "CN=SUBJECT".
+8.  No elemento &lt;Identity&gt;, modifique o valor do atributo Publisher para que este seja idêntico à entidade listada no certificado de autenticação, por exemplo “CN=SUBJECT”.
 
 9. Salve o arquivo e saia do editor.
 
@@ -154,7 +148,7 @@ Certifique-se de quando criar um modelo de perfil para defini-lo para criar/dest
 
     -   Abra o aplicativo do Cartão Inteligente Virtual. Isso facilita a localização dos valores necessários para a próxima etapa.
 
-    -   No servidor do AD FS, abra o Windows PowerShell e execute o comando `ConfigureMimCMClientAndRelyingParty.ps1 –redirectUri <redirectUriString> -serverFQDN <MimCmServerFQDN>`, para adicionar o aplicativo como um cliente no servidor do AD FS e configurar o CM no servidor
+    -   Para adicionar o aplicativo como um cliente no servidor do AD FS e configurar o CM no servidor, no servidor do AD FS, abra o Windows PowerShell e execute o comando `ConfigureMimCMClientAndRelyingParty.ps1 –redirectUri <redirectUriString> -serverFQDN <MimCmServerFQDN>`
 
         O script ConfigureMimCMClientAndRelyingParty.ps1 é exibido a seguir:
 
@@ -255,12 +249,13 @@ Certifique-se de quando criar um modelo de perfil para defini-lo para criar/dest
 
     -   O serverFQDN é o nome do computador completo do servidor MIMCM somente.
 
-    -   Para obter ajuda com o script **ConfigureMIimCMClientAndRelyingParty.ps1** , execute `get-help  -detailed ConfigureMimCMClientAndRelyingParty.ps1`
+    -   Para obter ajuda com o script **ConfigureMIimCMClientAndRelyingParty.ps1**, execute `get-help  -detailed ConfigureMimCMClientAndRelyingParty.ps1`
 
 ## Implantar o aplicativo
-Quando você configurar o aplicativo CM, no Centro de Download, baixe o arquivo MIMDMModernApp_&lt;version&gt;_AnyCPU_Test.zip e extraia todo o conteúdo. O arquivo .appx é o instalador. Você pode implantá-lo da maneira que normalmente implanta aplicativos da Windows Store usando o [System Center Configuration Manager](https://technet.microsoft.com/library/dn613840.aspx)ou o [Intune](https://technet.microsoft.com/library/dn613839.aspx) para carregar o aplicativo para que os usuários tenham acesso a ele por meio do portal da empresa ou para que seja enviado diretamente às suas máquinas.
+Depois de configurar o aplicativo CM, no Centro de Download, baixe o arquivo MIMDMModernApp_&lt;version&gt;_AnyCPU_Test.zip e extraia todo o conteúdo. O arquivo .appx é o instalador. Você pode implantá-lo da maneira que normalmente implanta aplicativos da Windows Store usando o [System Center Configuration Manager](https://technet.microsoft.com/library/dn613840.aspx)ou o [Intune](https://technet.microsoft.com/library/dn613839.aspx) para carregar o aplicativo para que os usuários tenham acesso a ele por meio do portal da empresa ou para que seja enviado diretamente às suas máquinas.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

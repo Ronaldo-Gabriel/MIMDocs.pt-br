@@ -1,9 +1,7 @@
 ---
-# required metadata
-
-title: Criação de certificados de software | Microsoft Identity Manager
+title: "Criação de certificados de software | Microsoft Identity Manager"
 description: Saiba como usar o Gerenciador de certificados para criar e renovar certificados de software com os modelos de perfil.
-keywords:
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 04/28/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: fed5ada9-d80f-4825-aad7-4172ac5d71d3
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f9b01ac2cee2b96f64a9fda917f4f4146ca2eeda
+ms.openlocfilehash: 6b58093744656b9bfa62c1cfcab340ea88e6e168
+
 
 ---
 
@@ -82,7 +76,7 @@ Para registrar e renovar certificados de software, você não precisa ser um adm
 
 1.  Faça logon no portal do CM como um usuário com privilégios administrativos.
 
-2.  Acesse **Administração &gt; Gerenciar Modelos de Perfil** e certifique-se de que a caixa esteja marcada ao lado do **Modelo de Perfil de Logon do Cartão Inteligente de Exemplo do MIM CM** e clique em **Copiar um modelo de perfil selecionado**.
+2.  Vá para **Administração &gt; Gerenciar Modelos de Perfil** e verifique se a caixa está marcada ao lado do **Modelo de Perfil de Logon do Cartão Inteligente de Exemplo do MIM CM** e clique em **Copiar um modelo de perfil selecionado**.
 
 3.  Digite o nome do modelo de perfil e clique em **OK**.
 
@@ -103,6 +97,7 @@ Para registrar e renovar certificados de software, você não precisa ser um adm
 11. Se você estiver usando o CM Do Cartão Inteligente Virtual, precisará desabilitar itens de coleta de dados porque eles não funcionam com a coleta de dados ativada. Desabilite a coleta de dados para cada política clicando na política no painel esquerdo e, em seguida, desmarcando a caixa ao lado de **Item de dados de exemplo** e, em seguida, em **Excluir itens de coleta de dados**. Em seguida, clique em **OK**.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

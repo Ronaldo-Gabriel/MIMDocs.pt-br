@@ -1,9 +1,7 @@
 ---
-# required metadata
-
 title: Guia de planejamento de capacidade | Microsoft Identity Manager
-description: Use este guia para entender as variáveis que devem ser consideradas antes de implantar o MIM 2016, incluindo níveis de carga e decisões de política.
-keywords:
+description: "Use este guia para entender as variáveis que devem ser consideradas antes de implantar o MIM 2016, incluindo níveis de carga e decisões de política."
+keywords: 
 author: kgremban
 manager: stevenpo
 ms.date: 05/13/2016
@@ -12,16 +10,12 @@ ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
 ms.technology: security
 ms.assetid: 3ac5b990-1678-4996-996d-cbd84b8426b4
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: mwahl
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 0ea8b3d9032a01bd6a6b1faad8ea27d2cb889fc6
+ms.openlocfilehash: 323a875aba14a238aa7cb3a0e6df192729ce53d6
+
 
 ---
 
@@ -100,6 +94,7 @@ A configuração da política do MIM também inclui decisões sobre provisioname
 - O [Guia de planejamento de capacidade do FIM (Forefront Identity Manager) 2010](http://go.microsoft.com/fwlink/?LinkId=200180) baixável apresenta mais detalhes sobre um build de teste e resultados de teste de desempenho.
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
