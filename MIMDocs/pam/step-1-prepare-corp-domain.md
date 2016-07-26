@@ -1,10 +1,10 @@
 ---
-title: "Etapa 1 – Preparar o host e o domínio CORP | Microsoft Identity Manager"
-description: 
+title: "Etapa 1 para implantar o PAM – Domínio CORP | Microsoft Identity Manager"
+description: "Prepare o domínio CORP com identidades novas ou existentes para serem gerenciadas pelo Privileged Identity Manager"
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/10/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: microsoft-identity-manager
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: 4b524ae7-6610-40a0-8127-de5a08988a8a
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: 7d6888ad4d694ad0ed746598563de32d7c363936
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 9a2fafa86c5c928339ff8d7ad1593472046ccb98
 
 
 ---
@@ -94,7 +94,7 @@ Em alguns casos, o grupo já pode existir – isso é normal se o domínio tamb�
 
 Se você criou um novo domínio CORP, será necessário criar usuários e grupos adicionais para demonstrar o cenário de PAM. O usuário e o grupo para fins de demonstração não devem ser administradores de domínio nem controlados pelas configurações de adminSDHolder no AD.
 
-> [!NOTE] 
+> [!NOTE]
 > Se você já tiver um domínio que será usado como o domínio CORP e ele tiver um usuário e um grupo que podem ser usados para fins de demonstração, vá para a seção [Configurar a auditoria](#configure-auditing).
 
 Vamos criar um grupo de segurança chamado *CorpAdmins* e um usuário chamado *Julia*. Se desejar, você poderá usar nomes diferentes.
@@ -167,7 +167,7 @@ Isso reiniciará o controlador de domínio, CORPDC. Para obter mais informaçõe
 
 Se você ainda não tiver um computador de estação de trabalho ingressado no domínio, siga estas instruções para preparar um.  
 
-> [!NOTE] 
+> [!NOTE]
 > Se você já tiver uma estação de trabalho ingressada no domínio, vá para [Criar um recurso para fins de demonstração](#create-a-resource-for-demonstration-purposes).
 
 ### Instalar o Windows 8.1 ou Windows 10 Enterprise como uma VM
@@ -215,6 +215,6 @@ Na próxima etapa, você vai preparar o controlador de domínio PRIV.
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

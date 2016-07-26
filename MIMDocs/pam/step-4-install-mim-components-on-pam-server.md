@@ -1,10 +1,10 @@
 ---
-title: "Etapa 4 – Instalar componentes do MIM no servidor PAM e na estação de trabalho | Microsoft Identity Manager"
-description: 
+title: "Etapa 4 para implantar o PAM – Instalar o MIM | Microsoft Identity Manager"
+description: "Instale e configure o Serviço e Portal do MIM nas estações de trabalho e o servidor do Privileged Access Management."
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/16/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: 4e0298099dad9b11812d533e23101fb995fe33d5
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 92939d32da25896d07bec61e4633f58230a78181
 
 
 ---
@@ -29,7 +29,7 @@ ms.openlocfilehash: 4e0298099dad9b11812d533e23101fb995fe33d5
 
 Em PAMSRV, entre como PRIV\Administrator para poder instalar o Portal e o Serviço MIM, bem como o aplicativo Web do portal de exemplo.
 
-  > [!NOTE] 
+  > [!NOTE]
   > É necessário ser um administrador de domínio; se você não estiver executando os comandos a seguir como um administrador de domínio, as verificações de validação da relação de confiança na próxima etapa não serão concluídas.
 
 Se você tiver baixado o MIM, descompacte o arquivo de instalação do MIM para uma nova pasta.
@@ -44,7 +44,7 @@ Siga as diretrizes do instalador e conclua a instalação.
 
 2.  Ao configurar serviços comuns e a conexão de banco de dados do MIM, especifique **Criar um novo banco de dados**.
 
-    > [!NOTE] 
+    > [!NOTE]
     > Se você instalar o Serviço MIM várias vezes para alta disponibilidade, especifique **Usar um banco de dados existente** para todas as instalações posteriores.
 
 3.  Ao configurar uma conexão de servidor de email, defina o servidor de email com o nome do host de um servidor Exchange ou SMTP para o ambiente CORP (use corpdc.contoso.local se você não tiver um servidor de email) e desmarque as caixas de seleção **Usar SSL** e **O Servidor de Email é o Exchange Server 2007 ou Exchange Server 2010**.
@@ -193,6 +193,6 @@ Na próxima etapa, você vai estabelecer a relação de confiança entre as flor
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

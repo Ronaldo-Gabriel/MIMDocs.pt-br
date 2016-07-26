@@ -1,10 +1,10 @@
 ---
-title: "Etapa 3 – Preparar um servidor PAM | Microsoft Identity Manager"
-description: 
+title: "Etapa 3 para implantar o PAM – Servidor PAM | Microsoft Identity Manager"
+description: "Prepare um servidor PAM que hospedará o SQL e SharePoint para sua implantação do Privileged Access Management."
 keywords: 
-author: 
+author: kgremban
 manager: femila
-ms.date: 06/17/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -14,8 +14,8 @@ ROBOTS: noindex,nofollow
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: ec65078cea33b73aa9482e831a1870df477c6581
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 1a21399df9528f689b811400a660543853d88472
 
 
 ---
@@ -118,7 +118,7 @@ Se o SQL Server não estiver no ambiente de bastiões, instale o SQL Server 2012
 
 Usando o instalador do SharePoint Foundation 2013 com SP1, instale os pré-requisitos de software do SharePoint no PAMSRV.
 
-> [!NOTE] 
+> [!NOTE]
 > Este instalador exige uma conexão com a Internet para baixar os pré-requisitos. E após a instalação, o servidor será reiniciado.
 
 1. Clique com o botão direito do mouse em PowerShell e selecione **Executar como administrador**.  
@@ -158,7 +158,7 @@ Depois de concluir os assistentes, use o PowerShell para criar um Aplicativo Web
 
 2. Uma mensagem de aviso será exibida informando que o método de autenticação Clássico do Windows está sendo usado, e poderá levar vários minutos para que o comando final seja retornado.  Quando concluído, a saída fornecerá a URL do novo portal.
 
-> [!NOTE] 
+> [!NOTE]
 > Mantenha a janela do Shell de Gerenciamento do SharePoint 2013 aberta para usá-la na próxima etapa.
 
 ## Criar uma coleção de sites do SharePoint
@@ -212,6 +212,6 @@ Na Etapa 4, você começará a instalação dos componentes do MIM no servidor P
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

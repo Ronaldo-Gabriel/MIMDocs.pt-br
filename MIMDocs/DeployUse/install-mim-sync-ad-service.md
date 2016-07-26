@@ -1,10 +1,10 @@
 ---
-title: "Instalação do MIM 2016 &"
+title: "Sincronizar o AD e o Serviço do MIM | Microsoft Identity Manager"
 description: "Use agentes de gerenciamento e o Serviço de Sincronização do MIM para sincronizar os bancos de dados do Active Directory e do MIM."
 keywords: 
 author: kgremban
-manager: stevenpo
-ms.date: 04/28/2016
+manager: femila
+ms.date: 07/21/2016
 ms.topic: get-started-article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: 5e532b67-64a6-4af6-a806-980a6c11a82d
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 8fd779bcc4d41b6e67d0fa31aa0f37c4ea2b410a
-ms.openlocfilehash: f4e94980c6a03b08221fd46e19c421cce226086d
+ms.sourcegitcommit: b3ab1b9376c9b613739d87c812f4b16a4e17e6de
+ms.openlocfilehash: f17f256653936ffd06da9fae87dccfbf1c12a553
 
 
 ---
@@ -316,7 +316,7 @@ Para criar a regra de sincronização de entrada do usuário do AD:
 
     -   Tipo de recurso do metaverso: pessoa
     -   Sistema externo: ADMA
-    -   Tipo de recurso do sistema externo: pessoa
+    -   Tipo de Recurso do Sistema Externo: usuário
 
 6. Na guia **Relacionamento**, forneça as seguintes informações e, em seguida, clique em **Avançar**:
 
@@ -328,10 +328,10 @@ Para criar a regra de sincronização de entrada do usuário do AD:
 
     | Regra de fluxo | Origem | Destination |
     |-|-|-|
-    |Regra 1|samAccountName|f|
+    |Regra 1|samAccountName|accountName|
     |Regra 2|displayName|displayName|
-    |Regra 3|EmployeeTipo|EmployeeTipo|
-    |Regra 4|givenName|givenName|
+    |Regra 3|EmployeeTipo|employeeTipo|
+    |Regra 4|givenName|firstName|
     |Regra 5|sn|lastName|
     |Regra 6|Manager|gerenciador|
     |Regra 7|objectSID|ObjectSID|
@@ -438,6 +438,6 @@ Siga estas etapas para executar cada um dos três perfis de execução.
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

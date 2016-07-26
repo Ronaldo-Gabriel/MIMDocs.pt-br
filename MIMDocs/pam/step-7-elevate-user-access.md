@@ -1,10 +1,10 @@
 ---
-title: "Etapa 7 – Elevar o acesso de um usuário | Microsoft Identity Manager"
-description: 
+title: "Etapa 7 para implantar o PAM – acesso do usuário | Microsoft Identity Manager"
+description: "Como etapa final, conceda um acesso de usuário privilegiado temporário para demonstrar que a implantação Privileged Access Management foi realizada com êxito."
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/16/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: microsoft-identity-manager
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: 5325fce2-ae35-45b0-9c1a-ad8b592fcd07
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 9e5f51d5ca731b3564b8262db0f4cddeb850231a
-ms.openlocfilehash: ee47c69788a98075372ca62943e0c4b101c5354f
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: b4b3f4c0605fabc7166e8ff8309078f80461301e
 
 
 ---
@@ -46,7 +46,7 @@ Sem privilégios elevados, Julia não pode acessar o recurso privilegiado na flo
 2. Quando for solicitado, digite a senha da conta PRIV.Julia. Uma nova janela de prompt de comando será exibida.
 3. Quando a janela do PowerShell for exibida, digite os seguintes comandos.
 
-    > [!NOTE] 
+    > [!NOTE]
     > Depois de executar esses comandos, todas as etapas a seguir serão sensíveis ao tempo.
 
     ```
@@ -92,7 +92,7 @@ Ative com a solicitação de acesso privilegiado por meio do portal de exemplo d
 7. Feche os diálogos **Opções da Internet** .
 8. Na guia à esquerda, clique em **Ativar**. Selecione a **função do PAM** e clique em **Ativar**.
 
-> [!Note] 
+> [!Note]
 > Neste ambiente, você também pode aprender a desenvolver aplicativos que usam a API REST do PAM, descrita na [Privileged Access Management REST API Reference](/microsoft-identity-manager/reference/privileged-access-management-rest-api-reference.md) (Referência da API REST do Privileged Access Management).
 
 ## Resumo
@@ -103,6 +103,6 @@ Depois de concluir as etapas neste passo a passo, você terá demonstrado um cen
 
 
 
-<!--HONumber=Jun16_HO5-->
+<!--HONumber=Jul16_HO3-->
 
 

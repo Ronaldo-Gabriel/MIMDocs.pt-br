@@ -1,10 +1,10 @@
 ---
-title: "Etapa 6 – Fazer a transição de um grupo para o Privileged Access Management | Microsoft Identity Manager"
-description: 
+title: "Etapa 6 para implantar o PAM – Mover grupo | Microsoft Identity Manager"
+description: Migre um grupo para a floresta PRIV para que ele possa ser gerenciado com o Privilege Access Management.
 keywords: 
-author: 
+author: kgremban
 manager: femila
-ms.date: 06/16/2016
+ms.date: 07/15/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -12,8 +12,9 @@ ms.technology: active-directory-domain-services
 ms.assetid: 7b689eff-3a10-4f51-97b2-cb1b4827b63c
 ms.reviewer: mwahl
 ms.suite: ems
-ms.sourcegitcommit: 01470689e862b47625346d5d5bc6bc7def11da9c
-ms.openlocfilehash: b21e2fed4588572fd1b793c4942860871ae9a51c
+translationtype: Human Translation
+ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
+ms.openlocfilehash: 603e5e28f0eee0f648ef7e00ef137f5a08b2ba34
 
 
 ---
@@ -21,7 +22,7 @@ ms.openlocfilehash: b21e2fed4588572fd1b793c4942860871ae9a51c
 # Etapa 6 – Faz a transição de um grupo para Gerenciamento de acesso privilegiado
 
 >[!div class="step-by-step"]
-[!div class="step-by-step"] [« Etapa 5 ](step-5-establish-trust-between-priv-corp-forests.md)
+[« Etapa 5 ](step-5-establish-trust-between-priv-corp-forests.md)
 [Etapa 7 »](step-7-elevate-user-access.md)
 
 A criação de conta privilegiada na floresta PRIV é feita usando cmdlets do PowerShell. Esses cmdlets executam as seguintes funções:
@@ -84,11 +85,11 @@ Os cmdlets precisam ser executados uma vez para cada grupo e uma vez para cada m
 Se você desejar demonstrar que os direitos de acesso entre florestas são efetivos para a conta de administrador do usuário, vá para a próxima etapa.
 
 >[!div class="step-by-step"]
-[!div class="step-by-step"] [« Etapa 5 ](step-5-establish-trust-between-priv-corp-forests.md)
+[« Etapa 5 ](step-5-establish-trust-between-priv-corp-forests.md)
 [Etapa 7 »](step-7-elevate-user-access.md)
 
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 
