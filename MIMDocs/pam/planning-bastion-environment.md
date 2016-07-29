@@ -123,7 +123,7 @@ Embora sejam inconvenientes, estações de trabalho protegidas separadas, dedica
 
 - **Inicialização segura** para reduzir tentativas de ataques ou de malware de carregar um código não assinado no processo de inicialização.
 
-- **Restrição de software** para garantir que apenas o software administrativo autorizado seja executado nos hosts administrativos. Os clientes podem usar o AppLocker para essa tarefa com uma lista branca de aplicativos autorizados, para ajudar a impedir que softwares mal-intencionados e aplicativos sem suporte sejam executados.
+- **Restrição de software** para garantir que apenas o software administrativo autorizado seja executado nos hosts administrativos. Os clientes podem usar o AppLocker para essa tarefa com uma lista aprovada de aplicativos autorizados, para ajudar a impedir que softwares mal-intencionados e aplicativos sem suporte sejam executados.
 
 - **Criptografia de volume completo** para reduzir a perda física de computadores, como laptops administrativos usados remotamente.
 
