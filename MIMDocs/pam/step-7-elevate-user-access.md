@@ -13,8 +13,8 @@ ms.assetid: 5325fce2-ae35-45b0-9c1a-ad8b592fcd07
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: ae4c40c73dd9d5860f42e00765a7e34e8ca397a9
-ms.openlocfilehash: b4b3f4c0605fabc7166e8ff8309078f80461301e
+ms.sourcegitcommit: 9b5b7460e6307ab38b1b9356a638eb0200fd97d1
+ms.openlocfilehash: 009091a65dba31de2066e45930e438442fcd89a0
 
 
 ---
@@ -93,7 +93,7 @@ Ative com a solicitação de acesso privilegiado por meio do portal de exemplo d
 8. Na guia à esquerda, clique em **Ativar**. Selecione a **função do PAM** e clique em **Ativar**.
 
 > [!Note]
-> Neste ambiente, você também pode aprender a desenvolver aplicativos que usam a API REST do PAM, descrita na [Privileged Access Management REST API Reference](/microsoft-identity-manager/reference/privileged-access-management-rest-api-reference.md) (Referência da API REST do Privileged Access Management).
+> Neste ambiente, você também pode aprender a desenvolver aplicativos que usam a API REST do PAM, descrita na [Privileged Access Management REST API Reference](/microsoft-identity-manager/reference/privileged-access-management-rest-api-reference) (Referência da API REST do Privileged Access Management).
 
 ## Resumo
 Depois de concluir as etapas neste passo a passo, você terá demonstrado um cenário do Privileged Access Management, no qual os privilégios do usuário são elevados por uma quantidade limitada de tempo, permitindo ao usuário acessar recursos protegidos com uma conta privilegiada separada. Assim que a sessão de elevação expirar, a conta privilegiada não pode mais acessar o recurso protegido. A decisão de quais grupos de segurança representam funções privilegiadas é coordenada pelo administrador do PAM. Depois que os direitos de acesso são migrados para o sistema do Privileged Access Management, o acesso antes possibilitado com a conta de usuário original é agora possibilitado apenas ao entrar com uma conta privilegiada especial e disponibilizado mediante solicitação. Como resultado, associações de grupo para grupos altamente privilegiados são efetivas por uma quantidade limitada de tempo.
@@ -103,6 +103,6 @@ Depois de concluir as etapas neste passo a passo, você terá demonstrado um cen
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Jul16_HO4-->
 
 
