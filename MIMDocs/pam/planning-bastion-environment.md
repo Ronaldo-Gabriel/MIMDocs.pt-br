@@ -4,7 +4,7 @@ description:
 keywords: 
 author: kgremban
 manager: femila
-ms.date: 06/14/2016
+ms.date: 09/16/2016
 ms.topic: article
 ms.prod: identity-manager-2015
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: bfc7cb64-60c7-4e35-b36a-bbe73b99444b
 ms.reviewer: mwahl
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8af77d2354428da19d91d5f02b490012835f544
-ms.openlocfilehash: 0ed48d43825e1a876c4d96cafcb6c17cac26610f
+ms.sourcegitcommit: 9eefdf21d0cab3f7c488a66cbb3984d40498f4ef
+ms.openlocfilehash: fc4161f98d4367a2124e6253fe11dd1f2712d614
 
 
 ---
@@ -43,7 +43,7 @@ De acordo com o [Modelo de camada](tier-model-for-partitioning-administrative-pr
 
 A floresta *CORP* de produção deve confiar na floresta *PRIV* administrativa, mas não o oposto. Isso pode ser uma relação de confiança de domínio ou uma relação de confiança de floresta. O domínio da floresta de administrador não precisa confiar nos domínios e florestas gerenciadas para gerenciar o Active Directory, embora outros aplicativos possam exigir uma relação de confiança bidirecional, validação de segurança e testes.
 
-A autenticação seletiva deve ser usada para garantir que as contas na floresta de administrador usam apenas os hosts de produção apropriados. Para manter os controladores de domínio e direitos de delegação no Active Directory, isso geralmente exige a concessão do direito “Autorizado a fazer logon” de controladores de domínio a contas de administrador da Camada 0 designadas na floresta de administrador. Veja [Configuring Selective Authentication Settings](http://technet.microsoft.com/library/cc755844.aspx) (Definindo as configurações de autenticação seletiva) para obter mais informações.
+A autenticação seletiva deve ser usada para garantir que as contas na floresta de administrador usam apenas os hosts de produção apropriados. Para manter os controladores de domínio e direitos de delegação no Active Directory, isso geralmente exige a concessão do direito “Autorizado a fazer logon” de controladores de domínio a contas de administrador da Camada 0 designadas na floresta de administrador. Veja [Configuring Selective Authentication Settings](http://technet.microsoft.com/library/cc816580.aspx)para obter mais informações.
 
 ## Mantendo uma separação lógica
 
@@ -149,7 +149,7 @@ O MIM usa cmdlets do PowerShell para estabelecer a relação de confiança entre
 
 Quando a topologia existente do Active Directory é alterada, os cmdlets `Test-PAMTrust`, `Test-PAMDomainConfiguration`, `Remove-PAMTrust` e `Remove-PAMDomainConfiguration` podem ser usados para atualizar as relações de confiança.
 
-### Estabelecer relação de confiança para cada floresta
+## Estabelecer relação de confiança para cada floresta
 
 O cmdlet `New-PAMTrust` deve ser executado uma única vez para cada floresta existente. Ele é invocado no computador do Serviço do MIM no domínio administrativo. Os parâmetros para esse comando são o nome de domínio do domínio superior da floresta existente e as credenciais de um administrador desse domínio.
 
@@ -159,11 +159,11 @@ New-PAMTrust -SourceForest "contoso.local" -Credentials (get-credential)
 
 Depois de estabelecer a relação de confiança, configure cada domínio para habilitar o gerenciamento do ambiente de bastiões, como descrito na próxima seção.
 
-### Habilitar o gerenciamento de cada domínio
+## Habilitar o gerenciamento de cada domínio
 
 Há sete requisitos para habilitar o gerenciamento de um domínio existente.
 
-#### 1. Um grupo de segurança no domínio local
+### 1. Um grupo de segurança no domínio local
 
 Deve haver um grupo no domínio existente cujo nome é o nome NetBIOS do domínio seguido de três cifrões, por exemplo, *CONTOSO$$$*. O escopo do grupo deve ser *domínio local* e o tipo de grupo deve ser *Segurança*. Isso será necessário para a criação dos grupos na floresta administrativa dedicada com o mesmo Identificador de segurança dos grupos neste domínio. Crie esse grupo com o seguinte comando do PowerShell, executado por um administrador do domínio existente e em uma estação de trabalho ingressada no domínio existente:
 
@@ -171,7 +171,7 @@ Deve haver um grupo no domínio existente cujo nome é o nome NetBIOS do domíni
 New-ADGroup -name 'CONTOSO$$$' -GroupCategory Security -GroupScope DomainLocal -SamAccountName 'CONTOSO$$$'
 ```
 
-#### 2. Auditoria de êxito e falha
+### 2. Auditoria de êxito e falha
 
 As configurações de política de grupo no controlador de domínio para a auditoria devem incluir a auditoria de êxito e de falha do gerenciamento de contas de auditoria e do acesso do serviço de diretório da auditoria. Isso pode ser feito com o console de Gerenciamento de Política de Grupo, executado por um administrador do domínio existente e em uma estação de trabalho ingressada no domínio existente:
 
@@ -201,7 +201,7 @@ As configurações de política de grupo no controlador de domínio para a audit
 
 A mensagem “A atualização da Política de Computador foi concluída com sucesso." deve aparecer após alguns minutos.
 
-#### 3. Permitir conexões com a Autoridade de Segurança Local
+### 3. Permitir conexões com a Autoridade de Segurança Local
 
 Os controladores de domínio devem permitir RPC em conexões TCP/IP para LSA (Autoridade de Segurança Local) no ambiente de bastiões. Em versões mais antigas do Windows Server, o suporte a TCP/IP no LSA deve ser habilitado no Registro:
 
@@ -209,7 +209,7 @@ Os controladores de domínio devem permitir RPC em conexões TCP/IP para LSA (Au
 New-ItemProperty -Path HKLM:SYSTEM\\CurrentControlSet\\Control\\Lsa -Name TcpipClientSupport -PropertyType DWORD -Value 1
 ```
 
-#### 4. Criar a configuração de domínio do PAM
+### 4. Criar a configuração de domínio do PAM
 
 O cmdlet `New-PAMDomainConfiguration` deve ser executado no computador do Serviço do MIM no domínio administrativo. Os parâmetros para esse comando são o nome de domínio do domínio existente e as credenciais de um administrador desse domínio.
 
@@ -217,7 +217,7 @@ O cmdlet `New-PAMDomainConfiguration` deve ser executado no computador do Servi�
  New-PAMDomainConfiguration -SourceDomain "contoso" -Credentials (get-credential)
 ```
 
-#### 5. Conceder permissões de leitura de contas
+### 5. Conceder permissões de leitura de contas
 
 As contas na floresta de bastiões usadas para estabelecer funções (administradores que usam os cmdlets `New-PAMUser` e `New-PAMGroup` ), bem como a conta usada pelo serviço do monitor do MIM, precisam ter permissões de leitura naquele domínio.
 
@@ -239,11 +239,11 @@ As etapas a seguir permitem o acesso de leitura para o usuário *PRIV\Administra
 
 18. Feche Usuários e Computadores do Active Directory.
 
-#### 6. Uma conta de vigilância
+### 6. Uma conta de vigilância
 
 Se a meta do projeto de gerenciamento de acesso privilegiado é reduzir o número de contas com privilégios de Administrador de Domínio atribuídos permanentemente ao domínio, deve haver uma conta de *vigilância* no domínio, caso haja um problema posteriormente com a relação de confiança. Deve-se ter contas de acesso de emergência à floresta de produção em cada domínio e elas só devem ter a capacidade de fazer logon em controladores de domínio. Para organizações com vários sites, contas adicionais podem ser necessárias para redundância.
 
-#### 7. Permissões de atualização no ambiente de bastiões
+### 7. Permissões de atualização no ambiente de bastiões
 
 Examine as permissões para o objeto *AdminSDHolder* no contêiner Sistema desse domínio. O objeto *AdminSDHolder* tem uma ACL (lista de controle de acesso) exclusiva, que é usada para controlar as permissões de entidades de segurança que são membros de grupos do Active Directory com privilégios internos. Observe que, se forem feitas alterações às permissões padrão que afetariam usuários com privilégios administrativos no domínio, desde que essas permissões não se apliquem a usuários cujas contas estejam no ambiente de bastiões.
 
@@ -253,6 +253,6 @@ A próxima etapa é definir as funções do PAM, associando os usuários e grupo
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Sep16_HO3-->
 
 
