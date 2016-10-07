@@ -69,7 +69,8 @@ Encontre informações atualizadas de suporte de plataforma no documento chamado
 
 Os clientes que estão atualizando para o Microsoft Identity Manager 2016 Service Pack 1 devem seguir as orientações abaixo sobre todos os serviços aplicáveis à implantação.
 
->[!Note] Os clientes que executam o Forefront Identity Manager 2010 R2 SP1 ou anterior devem atualizar primeiro seu ambiente para o Microsoft Identity Manager 2016 lançado em agosto de 2015 e, em seguida, executar as etapas abaixo.
+>[!Note]
+>Os clientes que executam o Forefront Identity Manager 2010 R2 SP1 ou anterior devem atualizar primeiro seu ambiente para o Microsoft Identity Manager 2016 lançado em agosto de 2015 e, em seguida, executar as etapas abaixo.
 
 Antes de começar
 
