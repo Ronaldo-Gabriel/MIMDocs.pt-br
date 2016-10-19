@@ -13,8 +13,8 @@ ms.assetid: 4b524ae7-6610-40a0-8127-de5a08988a8a
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: c7c5266f3d1c51e933855031f4128cbcb967d6e2
-ms.openlocfilehash: 43a176ed2f1375eb98851064c460515ec09de132
+ms.sourcegitcommit: 99b1ff9f622ddd357866b2a3f9f4cc8e0fc88005
+ms.openlocfilehash: 82500ff42e24f5b155bfdd336566a2cd3d87fe7e
 
 
 ---
@@ -30,10 +30,13 @@ Considerações importantes:
 4. O ambiente tem três máquinas dedicadas (físicas ou virtuais) executando independentemente o CORPDC, PRIVDC e PAMSERVER.
 5. Para a opção de validação, supõe-se que existe uma máquina de cliente dedicada para executar essa etapa.
 
->[!NOTE] Se você tiver algum problema com a execução de script, talvez seja necessário examinar os logs. Todos os logs de script foram salvos em % AppData%\MIMPAMInstall. Compacte a pasta em um arquivo Zip e a envie por email para mim2016@microsoft.com, juntamente com detalhes da operação e do erro.
+>[!NOTE]
+>Se você tiver algum problema com a execução de script, talvez seja necessário examinar os logs. Todos os logs de script foram salvos em % AppData%\MIMPAMInstall. Compacte a pasta em um arquivo Zip e a envie por email para mim2016@microsoft.com, juntamente com detalhes da operação e do erro.
+
+Pronto para começar a usar os scripts de implantação do PAM? Comece em [Configurar o PAM usando scripts](/microsoft-identity-manager/pam/sp1-pam-configure-using-scripts).
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 
