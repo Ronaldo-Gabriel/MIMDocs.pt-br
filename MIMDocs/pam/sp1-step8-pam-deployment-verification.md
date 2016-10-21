@@ -4,7 +4,7 @@ description: "Prepare o domínio CORP com identidades novas ou existentes para s
 keywords: 
 author: barclayn
 manager: MBaldwin
-ms.date: 09/27/2016
+ms.date: 10/04/2016
 ms.topic: article
 ms.prod: microsoft-identity-manager
 ms.service: microsoft-identity-manager
@@ -13,8 +13,8 @@ ms.assetid: 4b524ae7-6610-40a0-8127-de5a08988a8a
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 689c2ef0e4e4a681a398ba7e94fb3def525937ea
-ms.openlocfilehash: 743ba586374ccc04e9ddafff759a00574e13f6ac
+ms.sourcegitcommit: 99b1ff9f622ddd357866b2a3f9f4cc8e0fc88005
+ms.openlocfilehash: 9a617d8a5fbe8bcdac40cdf3250e5efedb7a0b84
 
 
 ---
@@ -24,7 +24,8 @@ ms.openlocfilehash: 743ba586374ccc04e9ddafff759a00574e13f6ac
 O pacote de implantação vem com scripts de verificação que podem executar um cenário de PAM a fim de validar se a implantação do PAM está funcionando conforme o esperado.
 Para usar a Verificação de implantação, modifique a seção PAMDeploymentConfig.xml chamada <PamValidation/>.
 
->[!Note] A validação exige um domínio de computador cliente ingressado no Domínio CORP com os componentes do PAM do lado do cliente instalados. Veja o Adendo para obter os scripts sobre como instalar um cliente.
+>[!NOTE]
+>A validação exige um domínio de computador cliente ingressado no Domínio CORP com os componentes do PAM do lado do cliente instalados. Veja o Adendo para obter os scripts sobre como instalar um cliente.
 
 O nome do computador cliente deve ser atualizado na marca <PAMValidationClient/> do PAMDeploymentConfig.xml O restante dos dados no nó <PAMValidation/> deve ser editado somente se estiver em conflito com os usuários/grupos existentes, pois essa validação tentará criá-los.
 Use as etapas a seguir para realizar a validação:
@@ -72,8 +73,12 @@ Na janela do PowerShell, digite:
   Inicialmente, o usuário não terá acesso ao recurso. Depois que o usuário for adicionado de forma Just-In-Time à função, ele receberá o acesso. Após a expiração da duração da solicitação, o usuário deixará de ter acesso novamente.
   O script usa o padrão (11 minutos) para a expiração da solicitação.
 
+>[!div class="step-by-step"]
+[«Etapa 7](sp1-step7-setup-sidhistory-sidfiltering.md)
+[Adendo»](sp1-pam-deployment-addendum.md)
 
 
-<!--HONumber=Sep16_HO4-->
+
+<!--HONumber=Oct16_HO1-->
 
 
