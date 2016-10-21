@@ -13,12 +13,12 @@ ms.assetid: 4b524ae7-6610-40a0-8127-de5a08988a8a
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 689c2ef0e4e4a681a398ba7e94fb3def525937ea
-ms.openlocfilehash: 482cfbbac3ea668ca4bf9d8a4a45469e61634f98
+ms.sourcegitcommit: bc56b57a06592527bab13aad879ca13466e968b3
+ms.openlocfilehash: cdd859ceb13d187af3303235c0fe1e496f2bfb6e
 
 
 ---
-# Adendo:
+# Adendo dos scripts de implantação do PAM:
 
 ## Adendo 1 Configuração do domínio PRIV
 
@@ -70,10 +70,10 @@ Vá para a Etapa 8 fornecida acima.
 
 ## Adendo 4 Se algo der errado
 
-Todos os logs de script foram salvos em % AppData%\MIMPAMInstall. Compacte a pasta em um arquivo Zip e a envie por email para [mim2016@microsoft.com](mim2016@microsoft.com), juntamente com detalhes da operação e do erro.
+Todos os logs de script foram salvos em % AppData%\MIMPAMInstall. Compacte a pasta em um arquivo Zip e a envie por email para [mim2016@microsoft.com](mailto:mim2016@microsoft.com), juntamente com detalhes da operação e do erro.
 
 
 
-<!--HONumber=Sep16_HO4-->
+<!--HONumber=Oct16_HO1-->
 
 
