@@ -3,6 +3,7 @@ title: "Scripts de implantação do MIM2016 SP1 PAM"
 description: "Prepare o domínio CORP com identidades novas ou existentes para serem gerenciadas pelo Privileged Identity Manager usando scripts"
 keywords: 
 author: barclayn
+ms.author: barclayn
 manager: MBaldwin
 ms.date: 09/26/2016
 ms.topic: article

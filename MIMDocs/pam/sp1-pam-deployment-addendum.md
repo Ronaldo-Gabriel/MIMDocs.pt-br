@@ -3,6 +3,7 @@ title: Adendo
 description: "Prepare o domínio CORP com identidades novas ou existentes para serem gerenciadas pelo Privileged Identity Manager usando scripts"
 keywords: 
 author: barclayn
+ms.author: barclayn
 manager: MBaldwin
 ms.date: 09/27/2016
 ms.topic: article
